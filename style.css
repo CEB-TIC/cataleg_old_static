@@ -1,15 +1,3 @@
-.AGENT-editItem-layout {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "CODI             TITLE           TITLE           ID_TIPUSAGENT"
-    "AGENTOROL        AGENT_FORMATPER AGENT_FORMATPER AGENT_FORMATPER"
-    "TIPUSDEPENDENCIA ID_DEPENDE      ID_DEPENDE      ID_DEPENDE"
-    "CONTACTE         CONTACTE        MAILCONTACTE    MAILCONTACTE"
-    "errorMessage     errorMessage    errorMessage    errorMessage";
-}
-
 div[data-v-3f173500] {
   box-sizing: border-box;
   min-height: 42px;
@@ -112,27 +100,27 @@ div[data-v-29f5092a] {
 }
 
 
-.alta[data-v-74c6adea] {
+.AGENT-editItem-layout[data-v-99e4ebae] {
+  display: grid;
+  grid-template-columns: 20% 25% 25% 13% 13%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "CODI             TITLE           TITLE           ID_TIPUSAGENT    ID_TIPUSAGENT"
+    "AGENTOROL        AGENT_FORMATPER AGENT_FORMATPER AGENT_FORMATPER  AGENT_FORMATPER"
+    "TIPUSDEPENDENCIA ID_DEPENDE      ID_DEPENDE      ID_DEPENDE       ID_DEPENDE"
+    "CONTACTE         CONTACTE        MAILCONTACTE    MAILCONTACTE     MAILCONTACTE"
+    ".                .               .               ALTA             BAIXA"
+    "errorMessage     errorMessage    errorMessage    errorMessage     errorMessage";
+}
+
+
+
+.alta[data-v-5b1b5430] {
     margin-top: 8px;
 }
 
 
-.RELACIO-edit-layout[data-v-74c6adea] {
-  width: 810px;
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.alta[data-v-bd7fece4] {
-    margin-top: 8px;
-}
-
-
-.RELACIO-edit-layout[data-v-bd7fece4] {
+.RELACIO-edit-layout[data-v-5b1b5430] {
   width: 810px;
   padding: 4px;
   margin-top: 2px;
@@ -152,7 +140,8 @@ div[data-v-29f5092a] {
       ".                                .                               .                                 NIVELLDESEGURETAT"
       "errorMessage                     errorMessage                    errorMessage                      errorMessage"
   }
-.DISPOSICIONORMATIVA-editItem-layout {
+
+.DISPOSICIONORMATIVA-editItem-layout[data-v-1cf08b05] {
   display: grid;
   grid-template-columns: 2fr 2fr 8fr;
   grid-column-gap: 12px;
@@ -164,38 +153,26 @@ div[data-v-29f5092a] {
     "errorMessage  errorMessage  errorMessage"
 }
 
-.DISPOSICIONORMATIVA-TRACTAMENTDADESPERSONALS-editItem-layout {
+
+.DISPOSICIONORMATIVA-TRACTAMENTDADESPERSONALS-editItem-layout[data-v-34d18808] {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr 2fr 2fr;
   grid-column-gap: 12px;
   grid-template-areas:
-    "TITLE                     TITLE                    TITLE               TITLE               TITLE"
-    "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT   RECOLLIDADEDADES    SISTEMATRACTAMENT"
-    "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES   PERSONESAFECTADES   PERSONESAFECTADES"
-    "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT           FINALITAT           FINALITAT"
-    "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT   TRANSFERENCIESINT   TRANSFERENCIESINT"
-    "MESURESDESEGURETAT        MESURESDESEGURETAT       .                   ALTA                BAIXA"
-    "errorMessage              errorMessage             errorMessage        errorMessage        errorMessage"
+    "ID_DISPOSICIONORMATIVA    ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA"
+    "TITLE                     TITLE                    TITLE                    TITLE                    TITLE"
+    "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT        RECOLLIDADEDADES         SISTEMATRACTAMENT"
+    "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES        PERSONESAFECTADES        PERSONESAFECTADES"
+    "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT                FINALITAT                FINALITAT"
+    "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT        TRANSFERENCIESINT        TRANSFERENCIESINT"
+    "MESURESDESEGURETAT        MESURESDESEGURETAT       .                        ALTA                     BAIXA"
+    "errorMessage              errorMessage             errorMessage             errorMessage             errorMessage"
 }
 
 
-.alta[data-v-02b71ba0] {
-    margin-top: 8px;
-}
-
-
-.RELACIO-edit-layout[data-v-02b71ba0] {
-  width: 810px;
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
-
-.EVIDENCIA-editItem-layout {
+.EVIDENCIA-editItem-layout[data-v-3ca37356] {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-columns: 17% 15% 22% 17% 15% 15%;
   grid-column-gap: 12px;
   grid-template-areas:
     "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
@@ -203,27 +180,45 @@ div[data-v-29f5092a] {
     "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ."
     "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
     "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
-    "ID_TIPUSMODEL        EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
+    "ID_TIPUSMODEL        ID_TIPUSMODEL             EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
     ".                    .                         .                         .                          ALTA                       BAIXA"
     "errorMessage         errorMessage              errorMessage              errorMessage               errorMessage               errorMessage";
 }
 
-.INTERFICIECONNEXIO-editItem-layout {
+
+
+.alta[data-v-1a675fcc] {
+    margin-top: 8px;
+}
+
+
+.RELACIO-edit-layout[data-v-1a675fcc] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.INTERFICIECONNEXIO-editItem-layout[data-v-9bf8f21c] {
     display: grid;
-    grid-template-columns: repeat(4, 3fr);
+    grid-template-columns: 15% 15% 22% 22% 22%;
     grid-column-gap: 12px;
     grid-template-areas:
-      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
-      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
-      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
-      "INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES"
-      "DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO"
-      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
-      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
-      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
-      "ALTA                              BAIXA                             .                                 ."
-      "INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT";
-  }
+      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
+      "ID_TIPUSINTERFICIE                ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
+      "ID_TIPUSIMPORTACIO                ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
+      "INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES"
+      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
+      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
+      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
+      "ALTA                              BAIXA                             .                                 .                                 ."
+      "errorMessage                      errorMessage                      errorMessage                      errorMessage                      errorMessage"
+      "INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT";
+}
+
+
 .MODELDOCUMENT-editItem-layout {
     display: grid;
     margin: 0 auto;
@@ -235,30 +230,47 @@ div[data-v-29f5092a] {
       "URL                        URL                        URL                        URL                        ALTA                       BAIXA"
       "MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT";
   }
-.PROCES-editItem-layout {
+.OBJECTEDADA-editItem-layout {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 90%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "TITLE"
+    "TIPUS"
+    "SUPEROBJECTE"
+    "errorMessage"
+}
+
+
+.PROCES-editItem-layout[data-v-24f2d710] {
   display: grid;
   margin: 0 auto;
   max-width: 1200px;
-  grid-template-columns: 8fr 16fr 9fr 9fr 8fr;
+  grid-template-columns: 12% 12% 18% 15% 12% 15%;
   grid-column-gap: 12px;
   grid-template-areas:
     "CODI                TITLE               TITLE                TITLE                TIPUS                  TIPUS"
-    "ID_TIPUSRESPONSABLE ID_RESPONSABLE      AMBIT                ID_TIPUSINICIACIO    ID_TIPUSINICIACIO      ID_TIPUSINICIACIO"
-    "ID_FAMILIA          ID_FAMILIA          ID_TIPUSFINALITZACIO ID_TIPUSFINALITZACIO ID_TIPUSFINALITZACIO   ID_TIPUSFINALITZACIO"
+    "ID_TIPUSRESPONSABLE ID_TIPUSRESPONSABLE  ID_RESPONSABLE      ID_RESPONSABLE       ID_RESPONSABLE         AMBIT"
+    "ID_FAMILIA          ID_FAMILIA          ID_TIPUSINICIACIO    ID_TIPUSFINALITZACIO ID_TIPUSFINALITZACIO   ID_TIPUSFINALITZACIO"
     "ID_FAMILIAOPAE      ID_FAMILIAOPAE      ID_TIPUSRECURSPROCES ID_TIPUSRECURSPROCES MACROPROCES            NECESSITATDEPAGAMENT"
     "PROCES_DISPOSICIO   PROCES_DISPOSICIO   PROCES_DISPOSICIO    URLDIAGRAMA          URLDIAGRAMA            URLDIAGRAMA"
     "DESTINATARIS        DESTINATARIS        DESTINATARIS         DESTINATARIS         ALTA                   BAIXA"
     "errorMessage        errorMessage        errorMessage         errorMessage         errorMessage           errorMessage";
 }
 
-.PROCES-TASCA-editItem-layout {
+
+
+.PROCES-TASCA-editItem-layout[data-v-f7485520] {
   padding: 4px;
+  width: 1050px;
   margin-top: 2px;
   margin-left: 4px;
   display: grid;
   grid-template-columns: 3fr 6fr 3fr;
   grid-column-gap: 12px;
   grid-template-areas:
+    "ID_PROCES               ID_PROCES               ID_PROCES"
     "CODI                    TITLE                   TITLE"
     "ID_FORMABPMN            NOMCURT                 NOMCURT"
     "ID_TIPUSAGENT           ID_AGENT                ID_AGENT"
@@ -269,7 +281,9 @@ div[data-v-29f5092a] {
     "errorMessage            errorMessage            errorMessage";
 }
 
-.PROCES-EVIDENCIA-editItem-layout {
+
+
+.PROCES-EVIDENCIA-editItem-layout[data-v-38c8aeee] {
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
@@ -277,33 +291,46 @@ div[data-v-29f5092a] {
   grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
   grid-column-gap: 12px;
   grid-template-areas:
+    "ID_PROCES           ID_PROCES                ID_PROCES                ID_PROCES                ID_PROCES"
     "CODI                TITLE                    TITLE                    TIPUS                    CARACTER"
     "ID_SERIEDOCUMENTAL  ID_SERIEDOCUMENTAL       ID_SERIEDOCUMENTAL       REGISTREENTRADA          REGISTRESORTIDA"
     "ID_TIPUSPRODUCTOR   ID_PRODUCTOR             ID_PRODUCTOR             AUTENTIFICACIO           AUTENTIFICACIO"
     "ID_TIPUSDESTINATARI ID_DESTINATARI           ID_DESTINATARI           ID_FORMAT                ESSENCIAL"
     "ID_SISTEMA          ID_SISTEMA               ID_DEPENDENCIA           ID_DEPENDENCIA           ID_DEPENDENCIA"
     "ID_TIPUSMODEL       EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT"
+    ".                   .                        .                        ALTA                     BAIXA"
     "errorMessage        errorMessage             errorMessage             errorMessage             errorMessage";
 }
 
-.PROCES-SERIEDOCUMENTAL-editItem-layout {
+
+
+.PROCES-SERIEDOCUMENTAL-editItem-layout[data-v-7d9d90e6] {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES             ID_PROCES"
+    "CODI                        TITLE                       TITLE                       TITLE                       DIGITAL               VITAL"
+    "CLASSIFICACIO               TITOLCORPORATIU             TITOLCORPORATIU             TITOLCORPORATIU             CARACTER              CARACTER"
+    "ID_TIPUSPRODUCTOR           ID_PRODUCTOR                ID_PRODUCTOR                ID_PRODUCTOR                CRITERINORMALITZACIO  CRITERINORMALITZACIO"
+    "ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ALTA                  BAIXA"
+    "errorMessage                errorMessage                errorMessage                errorMessage                errorMessage          errorMessage";
+}
+
+
+.PROCES-PROCES-editItem-layout[data-v-d2999476] {
+  width: 780px;
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
-  display: grid;
-  grid-template-columns: repeat(4, 3fr);
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "CODI                        TITLE                       TITLE                    TITLE"
-    "CLASSIFICACIO               TITOLCORPORATIU             TITOLCORPORATIU          TITOLCORPORATIU"
-    "ID_TIPUSPRODUCTOR           ID_PRODUCTOR                ID_PRODUCTOR             ID_PRODUCTOR"
-    "ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS CRITERINORMALITZACIO     CRITERINORMALITZACIO"
-    "CARACTER                    VITAL                       .                        ."
-    "DESCRIPCIO                  DESCRIPCIO                  DESCRIPCIO               DESCRIPCIO"
-    "errorMessage                errorMessage                errorMessage             errorMessage";
+  display: flex;
+  flex-direction: column;
 }
 
-.PROCES-INDICADOR-editItem-layout {
+
+
+.PROCES-INDICADOR-editItem-layout[data-v-58ca086b] {
+  max-width: 870px;
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
@@ -311,6 +338,7 @@ div[data-v-29f5092a] {
   grid-template-columns: 4fr 8fr;
   grid-column-gap: 12px;
   grid-template-areas:
+    "ID_PROCES          ID_PROCES"
     "ID_TIPUSINDICADOR  TITLE"
     "PERIODICITATMESURA PERIODICITATMESURA"
     "CONCEPTE           CONCEPTE"
@@ -319,13 +347,6 @@ div[data-v-29f5092a] {
     "errorMessage       errorMessage";
 }
 
-.PROCES-PROCES-edit-layout {
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
 
 .INDICADOR-editItem-layout {
     display: grid;
@@ -342,7 +363,8 @@ div[data-v-29f5092a] {
       "ALTA            BAIXA            ."
       "errorMessage    errorMessage     errorMessage";
   }
-.QUADRECOMANDAMENT-editItem-layout {
+
+.QUADRECOMANDAMENT-editItem-layout[data-v-291aa364] {
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 5fr 2fr 2fr;
@@ -353,25 +375,30 @@ div[data-v-29f5092a] {
       "QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI"
       "DESTINATARIS               DESTINATARIS               DESTINATARIS               ALTA                       BAIXA"
       "errorMessage               errorMessage               errorMessage               errorMessage               errorMessage";
-  }
-.REGLAACCES-editItem-layout {
-  display: grid;
-  grid-template-columns: 140px 140px 460px 100px;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     NUMERO"
-    "INICI                INICI                  TERMINI               TERMINI"
-    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO"
-    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT"
-    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIPUBLICITAT     CRITERIPUBLICITAT"
-    "ALTA                 BAIXA                  .                     ."
-    "errorMessage         errorMessage           errorMessage          errorMessage";
 }
 
-.REGLACONSERVACIO-editItem-layout {
+
+
+.REGLAACCES-editItem-layout[data-v-6222d105] {
+  display: grid;
+  grid-template-columns: 12% 12% 9% 54% 12%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL    NUMERO"
+    "INICI                INICI                  TERMINI               TERMINI               TERMINI"
+    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO             RESOLUCIO"
+    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT              ID_AGENT"
+    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO      CRITERIAPLICACIO"
+    "CRITERIPUBLICITAT    CRITERIPUBLICITAT      CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
+    "ALTA                 BAIXA                  .                     .                     ."
+    "errorMessage         errorMessage           errorMessage          errorMessage          errorMessage";
+}
+
+
+.REGLACONSERVACIO-editItem-layout[data-v-c313301c] {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 25% 25% 10% 15% 15% 10%;
+    grid-template-columns: 25% 25% 10% 15% 15% 15%;
     grid-column-gap: 12px;
     grid-template-areas:
       "ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL      NUMEROREGLA"
@@ -380,22 +407,14 @@ div[data-v-29f5092a] {
       "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
       "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
       "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
-      "ALTA                  BAIXA                  .                      .                      .                       ."
+      ".                     .                      .                      .                      ALTA                    BAIXA"
       "errorMessage          errorMessage           errorMessage           errorMessage           errorMessage            errorMessage"
-  }
-
-.SERIE-DEPENDENCIES-edit-layout[data-v-3863ead6] {
-  width: 810px;
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
 }
 
-.SERIEDOCUMENTAL-editItem-layout {
+
+.SERIEDOCUMENTAL-editItem-layout[data-v-d7c336c6] {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
   grid-column-gap: 12px;
   grid-template-areas:
     "ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES             ID_PROCES"
@@ -406,7 +425,8 @@ div[data-v-29f5092a] {
     "errorMessage                errorMessage                errorMessage                errorMessage                errorMessage          errorMessage";
 }
 
-.SERIE-SERIE-editItem-layout {
+
+.SERIE-DEPENDENCIES-edit-layout[data-v-742dd012] {
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
@@ -414,54 +434,61 @@ div[data-v-29f5092a] {
   flex-direction: column;
 }
 
-.SERIE-EVIDENCIA-editItem-layout {
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
+
+.SERIEDOCUMENTAL-EVIDENCIA-editItem-layout[data-v-10b44548] {
   display: grid;
-  grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
+  grid-template-columns: 17% 15% 22% 17% 15% 15%;
   grid-column-gap: 12px;
   grid-template-areas:
-    "CODI                TITLE                    TITLE                    TIPUS                    CARACTER"
-    "ID_PROCES           ID_PROCES                ID_PROCES                REGISTREENTRADA          REGISTRESORTIDA"
-    "ID_TIPUSPRODUCTOR   ID_PRODUCTOR             ID_PRODUCTOR             AUTENTIFICACIO           AUTENTIFICACIO"
-    "ID_TIPUSDESTINATARI ID_DESTINATARI           ID_DESTINATARI           ID_FORMAT                ESSENCIAL"
-    "ID_SISTEMA          ID_SISTEMA               ID_DEPENDENCIA           ID_DEPENDENCIA           ID_DEPENDENCIA"
-    "ID_TIPUSMODEL       EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT"
-    ".                   .                        .                        ALTA                     BAIXA"
-    "errorMessage        errorMessage             errorMessage             errorMessage             errorMessage";
+    "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ."
+    "TITLE                TITLE                     TITLE                     TIPUS                      REGISTREENTRADA            REGISTRESORTIDA"
+    "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
+    "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
+    "ID_TIPUSMODEL        ID_TIPUSMODEL             EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
+    ".                    .                         .                         .                          ALTA                       BAIXA"
+    "errorMessage         errorMessage              errorMessage              errorMessage               errorMessage               errorMessage";
 }
-.SERIE-REGLAACCES-editItem-layout {
+
+
+
+.SERIE-REGLAACCES-editItem-layout[data-v-5ac427c7] {
   display: grid;
-  margin: 0 auto;
-  max-width: 1000px;
-  grid-template-columns: 120px 120px 320px 200px 200px;
+  grid-template-columns: 12% 12% 63% 10%;
   grid-column-gap: 12px;
   grid-template-areas:
-    "NUMERO               INICI                  INICI                 TERMINI               TERMINI"
-    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO             RESOLUCIO"
-    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT              ID_AGENT"
-    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIPUBLICITAT     CRITERIPUBLICITAT"
-    "ALTA                 BAIXA                  .                     .                     ."
-    "errorMessage         errorMessage           errorMessage          errorMessage          errorMessage";
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL    NUMERO"
+    "INICI                INICI                  TERMINI               TERMINI"
+    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO"
+    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT"
+    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO"
+    "CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
+    "ALTA                 BAIXA                  .                     ."
+    "errorMessage         errorMessage           errorMessage          errorMessage";
 }
-.SERIE-REGLACONSERVACIO-editItem-layout {
+
+
+.SERIE-REGLACONSERVACIO-editItem-layout[data-v-4c09549e] {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 20% 20% 10% 15% 15% 15%;
   grid-column-gap: 12px;
   grid-template-areas:
-    "NUMEROREGLA           ESDEVENIMENTINICI      ESDEVENIMENTINICI      TERMINI"
-    "RESOLUCIO             ID_FORMATDESTI         SUPORTDESTI            ID_DIPOSITDESTI"
-    "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO"
-    "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA"
-    "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG"
-    ".                     .                      ALTA                   BAIXA"
-    "errorMessage          errorMessage           errorMessage           errorMessage";
+    "ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL      NUMEROREGLA"
+    "ESDEVENIMENTINICI     ESDEVENIMENTINICI      ESDEVENIMENTINICI      TERMINI                TERMINI                 TERMINI"
+    "RESOLUCIO             ID_FORMATDESTI         ID_FORMATDESTI         SUPORTDESTI            ID_DIPOSITDESTI         ID_DIPOSITDESTI"
+    "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
+    "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
+    "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
+    ".                     .                      .                      .                      ALTA                    BAIXA"
+    "errorMessage          errorMessage           errorMessage           errorMessage           errorMessage            errorMessage"
 }
-.SISTEMAINFORMACIO-editItem-layout {
+
+
+.SISTEMAINFORMACIO-editItem-layout[data-v-666fb3a4] {
+    max-width: 1200px;
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 12% 25% 10% 10% 10% 10% 10% 3% 18%;
     grid-column-gap: 12px;
     grid-template-areas:
       "TITLE                              TITLE                              TITLE                              CODI                     URL                      URL                      URL                                URL                                NOMCURT"
@@ -470,45 +497,14 @@ div[data-v-29f5092a] {
       "CODISERVEICPD                      ID_MODELDESERVEI                   ID_MODELDESERVEI                   ABAST                    ABAST                    ABAST                    CODICLIENTADMINISTRATIU            CODICLIENTADMINISTRATIU            CODICLIENTADMINISTRATIU"
       "RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES  RESTRICCIONSSEMANTIQUES  RESTRICCIONSSEMANTIQUES  ID_CONTROLACCES                    ID_CONTROLACCES                    ID_CONTROLINTEGRITAT"
       "SISTEMAINFORMACIO_UNITATDESCRIPCIO SISTEMAINFORMACIO_UNITATDESCRIPCIO SISTEMAINFORMACIO_UNITATDESCRIPCIO RESTRICCIONSFORMAT       RESTRICCIONSFORMAT       RESTRICCIONSFORMAT       RTO                                RTO                                RPO"
-      "ID_CLASSIFICACIOENS                ID_CLASSIFICACIOENS                DIALEGCTTI                         ANS                      ANS                      NAQ                      NAQ                                DATAINICIPRODUCCIO                 ."
+      "ID_CLASSIFICACIOENS                ID_CLASSIFICACIOENS                DIALEGCTTI                         ANS                      ANS                      NAQ                      NAQ                                NAQ                                DATAINICIPRODUCCIO"
+      ".                                  .                                  .                                  .                        .                        .                        ALTA                               ALTA                               BAIXA"
       "errorMessage                       errorMessage                       errorMessage                       errorMessage             errorMessage             errorMessage             errorMessage                       errorMessage                       errorMessage";
-  }
+}
 
-  .SISTEMAINFORMACIO-FONTDADES-editItem-layout {
-    padding: 4px;
-    margin-top: 2px;
-    margin-left: 4px;
-    display: grid;
-    grid-template-columns: 3fr 3fr 2fr 1fr 3fr;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "TITLE                             TITLE                             TITLE                             ID_TIPUSINTERFICIE                ID_TIPUSINTERFICIE"
-      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
-      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
-      "INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES"
-      "DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO  DADAELEMENTAL_INTERFICIECONNEXIO"
-      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
-      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
-      "errorMessage                      errorMessage                      errorMessage                      errorMessage                      errorMessage";
-  }
 
-  .SISTEMAINFORMACIO-INTERFICIECONNEXIO-editItem-layout {
-    padding: 4px;
-    margin-top: 2px;
-    margin-left: 4px;
-    display: grid;
-    grid-template-columns: 3fr 3fr 2fr 1fr 3fr;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "TITLE                    TITLE                       TITLE                     ID_TIPUSINTERFICIE        ID_TIPUSINTERFICIE"
-      "ID_TIPUSIMPORTACIO       ID_PROCEDIMENTIMPORTACIO    ID_PERIODEACTUALITZACIO   ID_PERIODEACTUALITZACIO   ID_HISTORIFICACIO"
-      "ID_SISTEMAORIGENDADES    ID_SISTEMAORIGENDADES       ID_SISTEMAORIGENDADES     ID_SISTEMAORIGENDADES     ID_SISTEMAORIGENDADES"
-      "NOMARXIUCARREGA          NOMARXIUCARREGA             NOMARXIUCARREGA           NOMARXIUCARREGA           NOMARXIUCARREGA"
-      "OBSERVACIONS             OBSERVACIONS                OBSERVACIONS              OBSERVACIONS              OBSERVACIONS"
-      "errorMessage             errorMessage                errorMessage              errorMessage              errorMessage";
-  }
 
-  .SISTEMAINFORMACIO-INDICADORSISTEMA-editItem-layout {
+.SISTEMAINFORMACIO-INDICADORSISTEMA-editItem-layout[data-v-32c4c3b6] {
     padding: 4px;
     margin-top: 2px;
     margin-left: 4px;
@@ -516,15 +512,61 @@ div[data-v-29f5092a] {
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 12px;
     grid-template-areas:
-      "ID_TIPUSINDICADOR  TITLE"
-      "PERIODICITATMESURA PERIODICITATMESURA"
-      "CONCEPTE           CONCEPTE"
-      "DESCRIPCIO         DESCRIPCIO"
-      "FORMULADECALCUL    FORMULADECALCUL"
-      "errorMessage       errorMessage";
-  }
+      "ID_SISTEMA            ID_SISTEMA"
+      "ID_TIPUSINDICADOR     TITLE"
+      "PERIODICITATMESURA    PERIODICITATMESURA"
+      "CONCEPTE              CONCEPTE"
+      "DESCRIPCIO            DESCRIPCIO"
+      "FORMULADECALCUL       FORMULADECALCUL"
+      "errorMessage          errorMessage";
+}
 
-.SISTEMAINFORMACIO_INDICADOR-edit-layout[data-v-0a8f4209] {
+
+.alta[data-v-6ff61526] {
+    margin-top: 8px;
+}
+
+
+.SISTEMA-INTERFICIECONNEXIO-CARREGA-editItem-layout[data-v-6ff61526] {
+    display: grid;
+    width: '1200px';
+    max-width: '1200px';
+    grid-template-columns: repeat(4, 3fr);
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
+      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
+      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
+      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
+      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
+      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
+      "ALTA                              BAIXA                             .                                 .";
+}
+
+
+.alta[data-v-506044bc] {
+    margin-top: 8px;
+}
+
+
+.SISTEMA-DESTI-editItem-layout[data-v-506044bc] {
+    display: grid;
+    width: '1200px';
+    max-width: '1200px';
+    grid-template-columns: repeat(4, 3fr);
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
+      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
+      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
+      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
+      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
+      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
+      "ALTA                              BAIXA                             .                                 .";
+}
+
+
+.SISTEMAINFORMACIO_INDICADOR-edit-layout[data-v-70edc4b0] {
   display: grid;
   margin: 0 auto;
   max-width: 1100px;
@@ -539,26 +581,33 @@ div[data-v-29f5092a] {
     "errorMessage     errorMessage";
 }
 
-.TASCA-editItem-layout {
+
+.TASCA-editItem-layout[data-v-716e3aa4] {
+  padding: 4px;
+  width: 1050px;
+  margin-top: 2px;
+  margin-left: 4px;
   display: grid;
-  grid-template-columns: repeat(4, 3fr);
+  grid-template-columns: 23% 50% 23%;
   grid-column-gap: 12px;
   grid-template-areas:
-    "ID_FORMABPMN            ID_PROCES               ID_PROCES               ID_PROCES"
-    "CODI                    TITLE                   TITLE                   NOMCURT"
-    "ID_TIPUSTASCA           TASCA_PRECEDENT           TASCA_PRECEDENT           LINKTITLE"
-    "ID_TIPUSAGENT           ID_AGENT                ID_AGENT                ID_AGENT"
-    "TASCA_EVIDENCIAENTRADA TASCA_EVIDENCIAENTRADA TASCA_EVIDENCIASORTIDA TASCA_EVIDENCIASORTIDA"
-    "DESCRIPCIO              DESCRIPCIO              DESCRIPCIO              DESCRIPCIO"
-    "errorMessage            errorMessage            errorMessage            errorMessage";
+    "ID_PROCES               ID_PROCES               ID_PROCES"
+    "CODI                    TITLE                   TITLE"
+    "ID_FORMABPMN            NOMCURT                 NOMCURT"
+    "ID_TIPUSAGENT           ID_AGENT                ID_AGENT"
+    "ID_TIPUSTASCA           TASCA_PRECEDENT         LINKTITLE"
+    "TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA"
+    "TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA"
+    "DESCRIPCIO              DESCRIPCIO              DESCRIPCIO"
+    "errorMessage            errorMessage            errorMessage";
 }
 
 
-.SERIEDOCUMENTAL-edit-layout[data-v-3989f8e2] {
+
+.SERIEDOCUMENTAL-edit-layout[data-v-216d715a] {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
   margin: 0 auto;
-  max-width: 1200px;
   grid-column-gap: 12px;
   grid-template-areas:
     "ID_PROCES          ID_PROCES         ID_PROCES         ID_PROCES         ID_PROCES             ID_PROCES"
