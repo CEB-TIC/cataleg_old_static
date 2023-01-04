@@ -656,14 +656,14 @@ div[data-v-29f5092a] {
       ".               EMAIL_USUARI        EMAIL_USUARI          EMAIL_USUARI"
       "errorMessage    errorMessage        errorMessage          errorMessage"
   }
-.layoutBase-grid[data-v-16727255] {
+.layoutBase-grid[data-v-ae28b8cc] {
   display: grid;
   grid-template-areas: "logo title menu" "content content content";
-  grid-template-columns: 180px 510px auto;
-  grid-template-rows: 90px auto;
+  grid-template-columns: 140px 370px auto;
+  grid-template-rows: 80px auto;
   min-height: 100%;
 }
-.layoutBase-logo[data-v-16727255] {
+.layoutBase-logo[data-v-ae28b8cc] {
   grid-area: logo;
   display: flex;
   align-items: center;
@@ -671,27 +671,27 @@ div[data-v-29f5092a] {
   margin: 0;
   padding: 0;
 }
-.layoutBase-title[data-v-16727255] {
+.layoutBase-title[data-v-ae28b8cc] {
   grid-area: title;
   padding: 5px 20px 0 20px;
   max-height: 95px;
   margin: 0;
   overflow: hidden;
 }
-.layoutBase-appTitle[data-v-16727255] {
-  font-size: 28px;
+.layoutBase-appTitle[data-v-ae28b8cc] {
+  font-size: 20px;
   color: var(--theme-primary, #0078d4);
 }
-.layoutBase-subtitle[data-v-16727255] {
+.layoutBase-subtitle[data-v-ae28b8cc] {
   font-size: 18px;
   color: var(--theme-secondary, #2b88d8);
 }
-.layoutBase-menu[data-v-16727255] {
+.layoutBase-menu[data-v-ae28b8cc] {
   grid-area: menu;
   max-height: 100px;
   width: 95%;
 }
-.layoutBase-content[data-v-16727255] {
+.layoutBase-content[data-v-ae28b8cc] {
   position: relative;
   grid-area: content;
   border-top: 2px solid var(--theme-primary, #0078d4);
