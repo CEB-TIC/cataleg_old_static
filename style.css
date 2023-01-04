@@ -659,8 +659,8 @@ div[data-v-29f5092a] {
 .layoutBase-grid[data-v-16727255] {
   display: grid;
   grid-template-areas: "logo title menu" "content content content";
-  grid-template-columns: 260px 360px auto;
-  grid-template-rows: 100px auto;
+  grid-template-columns: 180px 510px auto;
+  grid-template-rows: 90px auto;
   min-height: 100%;
 }
 .layoutBase-logo[data-v-16727255] {
