@@ -27,7 +27,7 @@ div .detailsCellBoolean-false[data-v-3f173500] {
   font-size: 16px;
 }
 
-div[data-v-3c73bac8] {
+div[data-v-d5f3745e] {
   display: flex;
   align-items: flex-end;
   padding: 6px 0;
@@ -73,6 +73,29 @@ div[data-v-29f5092a] {
 
 .field[data-v-e6e02e5c] .fura-wrapper::after {
   right: 0px !important;
+}
+
+div[data-v-e9d017ea] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-e9d017ea] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-e9d017ea] {
+  justify-content: center;
+}
+.fura-right div[data-v-e9d017ea] {
+  justify-content: flex-end;
+}
+div .detailsCellFile[data-v-e9d017ea] {
+  font-size: 16px;
 }
 
 .field[data-v-543d71e4] .fura-wrapper::after {
@@ -228,7 +251,8 @@ div[data-v-29f5092a] {
       "CODI                       VERSIO                     TITLE                      TITLE                      TITLE                      TITLE"
       "ID_TIPUS                   ID_FORMAT                  .                          FIDESENVOLUPAMENT          ACCEPTACIO                 POSSADAPRODUCCIO"
       "URL                        URL                        URL                        URL                        ALTA                       BAIXA"
-      "MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT";
+      "MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT"
+      "errorMessage               errorMessage               errorMessage               errorMessage               errorMessage               errorMessage"
   }
 .OBJECTEDADA-editItem-layout {
   display: grid;
@@ -816,7 +840,7 @@ div[data-v-29f5092a] {
   justify-content: center;
 }
 
-.detailsGrid[data-v-1653596e] {
+.detailsGrid[data-v-cb3c5536] {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -832,30 +856,30 @@ div[data-v-29f5092a] {
   border-color: var(--neutral-light, var(--neutral-light, #edebe9));
   position: relative;
 }
-.detailsGrid tr[data-v-1653596e] {
+.detailsGrid tr[data-v-cb3c5536] {
   height: 42px;
 }
-.detailsGrid thead tr[data-v-1653596e],
-.detailsGrid tbody tr[data-v-1653596e]:last-of-type {
+.detailsGrid thead tr[data-v-cb3c5536],
+.detailsGrid tbody tr[data-v-cb3c5536]:last-of-type {
   border-bottom: 1px solid var(--neutral-light, var(--neutral-light, #edebe9));
 }
-.detailsGrid tbody tr[data-v-1653596e]:first-of-type {
+.detailsGrid tbody tr[data-v-cb3c5536]:first-of-type {
   vertical-align: top;
 }
-.detailsGrid tbody tr:first-of-type td[data-v-1653596e] {
+.detailsGrid tbody tr:first-of-type td[data-v-cb3c5536] {
   padding-top: 5px;
   height: calc(100% - 5px);
 }
-.detailsGrid tbody[data-v-1653596e]:hover {
+.detailsGrid tbody[data-v-cb3c5536]:hover {
   background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
 }
-.detailsGrid tbody td[data-v-1653596e] {
+.detailsGrid tbody td[data-v-cb3c5536] {
   height: 42px;
 }
-.detailsGrid-headerCell[data-v-1653596e]:hover {
+.detailsGrid-headerCell[data-v-cb3c5536]:hover {
   background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
 }
-.detailsGrid-headerTitle[data-v-1653596e] {
+.detailsGrid-headerTitle[data-v-cb3c5536] {
   box-sizing: border-box;
   min-height: 42px;
   padding: 0px 8px 0px 12px;
@@ -869,12 +893,12 @@ div[data-v-29f5092a] {
   font-size: 14px;
   font-weight: 600;
 }
-.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-1653596e] {
+.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-cb3c5536] {
   padding-left: 4px;
 }
-.fura-stickyHeader thead th[data-v-1653596e] {
+.fura-stickyHeader thead th[data-v-cb3c5536] {
   position: sticky;
-  top: var(--9801da48);
+  top: var(--39144d80);
   background: var(--white, var(--white, #ffffff));
   z-index: 1;
 }
@@ -1038,11 +1062,11 @@ div[data-v-29f5092a] {
 }
 
 
-.baseLayout[data-v-09e0c131] .baseLayout-content {
+.baseLayout[data-v-6591ad77] .baseLayout-content {
   display: flex;
   justify-content: center;
 }
-.layout[data-v-09e0c131] {
+.layout[data-v-6591ad77] {
   width: 100%;
   max-width: 800px;
   display: grid;
@@ -1057,36 +1081,36 @@ div[data-v-29f5092a] {
   grid-template-rows: 30px 40px 100px 100px auto 50px;
   margin: 0 auto;
 }
-.separatorLlista[data-v-09e0c131] {
+.separatorLlista[data-v-6591ad77] {
   grid-area: separatorLlista;
 }
-.separatorColumnes[data-v-09e0c131] {
+.separatorColumnes[data-v-6591ad77] {
   grid-area: separatorColumnes;
 }
-.name[data-v-09e0c131] {
+.name[data-v-6591ad77] {
   grid-area: name;
 }
-.viewOptions[data-v-09e0c131] {
+.viewOptions[data-v-6591ad77] {
   grid-area: viewOptions;
 }
-.viewOptions > label[data-v-09e0c131] {
+.viewOptions > label[data-v-6591ad77] {
   margin-top: 20px;
 }
-.fields[data-v-09e0c131] {
+.fields[data-v-6591ad77] {
   grid-area: fields;
 }
-.actions[data-v-09e0c131] {
+.actions[data-v-6591ad77] {
   grid-area: actions;
   display: flex;
   justify-content: center;
 }
-.errorMessage[data-v-09e0c131] {
+.errorMessage[data-v-6591ad77] {
   grid-area: error;
 }
-.actions > button[data-v-09e0c131] {
+.actions > button[data-v-6591ad77] {
   margin: 10px 5px;
 }
-.remove[data-v-09e0c131] {
+.remove[data-v-6591ad77] {
   --theme-dark: #b00c1a;
   --theme-dark-alt: #d10f1f;
   --theme-darker: #820913;
@@ -1099,7 +1123,7 @@ div[data-v-29f5092a] {
 }
 
 
-.itemListEdit-container[data-v-238d9033] .baseLayout-content {
+.itemListEdit-container[data-v-e1f6c376] .baseLayout-content {
   padding: 10px;
   max-width: calc(100% - 20px);
 }
