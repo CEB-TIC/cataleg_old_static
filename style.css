@@ -27,13 +27,22 @@ div .detailsCellBoolean-false[data-v-3f173500] {
   font-size: 16px;
 }
 
-div[data-v-d5f3745e] {
+div[data-v-2f45898e] {
   display: flex;
   align-items: flex-end;
   padding: 6px 0;
 }
+div.formFieldBoolean-left[data-v-2f45898e] {
+  justify-content: flex-start;
+}
+div.formFieldBoolean-center[data-v-2f45898e] {
+  justify-content: center;
+}
+div.formFieldBoolean-right[data-v-2f45898e] {
+  justify-content: flex-end;
+}
 
-div[data-v-4b941038] {
+div[data-v-1198e7f8] {
   display: flex;
   align-items: flex-end;
   padding: 6px 0;
@@ -67,7 +76,7 @@ div[data-v-29f5092a] {
   right: 0px !important;
 }
 
-.field[data-v-3c8d511f] .fura-elementWrapper::after {
+.field[data-v-52de4e9c] .fura-elementWrapper::after {
   right: 0px !important;
 }
 
@@ -98,7 +107,7 @@ div .detailsCellFile[data-v-e9d017ea] {
   font-size: 16px;
 }
 
-.field[data-v-543d71e4] .fura-wrapper::after {
+.field[data-v-3746c692] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -106,7 +115,7 @@ div .detailsCellFile[data-v-e9d017ea] {
   right: 0px !important;
 }
 
-.field[data-v-683903ff] .fura-wrapper::after {
+.field[data-v-a34b1a5c] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -118,7 +127,7 @@ div .detailsCellFile[data-v-e9d017ea] {
   right: 0px !important;
 }
 
-.field[data-v-1878bbd0] .fura-wrapper::after {
+.field[data-v-2a27fa3a] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -138,13 +147,12 @@ div .detailsCellFile[data-v-e9d017ea] {
 
 
 
-.alta[data-v-5b1b5430] {
+.alta[data-v-3288286c] {
     margin-top: 8px;
 }
 
 
-.RELACIO-edit-layout[data-v-5b1b5430] {
-  width: 810px;
+.RELACIO-edit-layout[data-v-3288286c] {
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
@@ -193,7 +201,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.EVIDENCIA-editItem-layout[data-v-3ca37356] {
+.EVIDENCIA-editItem-layout[data-v-c6ceca4c] {
   display: grid;
   grid-template-columns: 17% 15% 22% 17% 15% 15%;
   grid-column-gap: 12px;
@@ -285,7 +293,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 
 
 
-.PROCES-TASCA-editItem-layout[data-v-f7485520] {
+.PROCES-TASCA-editItem-layout[data-v-1a9dff61] {
   padding: 4px;
   width: 1050px;
   margin-top: 2px;
@@ -403,7 +411,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 
 
 
-.REGLAACCES-editItem-layout[data-v-6222d105] {
+.REGLAACCES-editItem-layout[data-v-58642a5a] {
   display: grid;
   grid-template-columns: 12% 12% 9% 54% 12%;
   grid-column-gap: 12px;
@@ -414,12 +422,11 @@ div .detailsCellFile[data-v-e9d017ea] {
     "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT              ID_AGENT"
     "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO      CRITERIAPLICACIO"
     "CRITERIPUBLICITAT    CRITERIPUBLICITAT      CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
-    "ALTA                 BAIXA                  .                     .                     ."
-    "errorMessage         errorMessage           errorMessage          errorMessage          errorMessage";
+    "ALTA                 BAIXA                  .                     .                     .";
 }
 
 
-.REGLACONSERVACIO-editItem-layout[data-v-c313301c] {
+.REGLACONSERVACIO-editItem-layout[data-v-29ef8ad1] {
     display: grid;
     margin: 0 auto;
     grid-template-columns: 25% 25% 10% 15% 15% 15%;
@@ -431,12 +438,11 @@ div .detailsCellFile[data-v-e9d017ea] {
       "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
       "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
       "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
-      ".                     .                      .                      .                      ALTA                    BAIXA"
-      "errorMessage          errorMessage           errorMessage           errorMessage           errorMessage            errorMessage"
+      ".                     .                      .                      .                      ALTA                    BAIXA";
 }
 
 
-.SERIEDOCUMENTAL-editItem-layout[data-v-d7c336c6] {
+.SERIEDOCUMENTAL-editItem-layout[data-v-772bd458] {
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
   grid-column-gap: 12px;
@@ -450,7 +456,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.SERIE-DEPENDENCIES-edit-layout[data-v-742dd012] {
+.SERIE-DEPENDENCIES-edit-layout[data-v-ce481456] {
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
@@ -459,13 +465,13 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.SERIEDOCUMENTAL-EVIDENCIA-editItem-layout[data-v-10b44548] {
+.SERIEDOCUMENTAL-EVIDENCIA-editItem-layout[data-v-ee6d0b46] {
   display: grid;
-  grid-template-columns: 17% 15% 22% 17% 15% 15%;
+  grid-template-columns: 17% 15% 20% 17% 14% 14%;
   grid-column-gap: 12px;
   grid-template-areas:
     "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
-    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ."
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ID_FORMAT"
     "TITLE                TITLE                     TITLE                     TIPUS                      REGISTREENTRADA            REGISTRESORTIDA"
     "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
     "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
@@ -476,7 +482,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 
 
 
-.SERIE-REGLAACCES-editItem-layout[data-v-5ac427c7] {
+.SERIE-REGLAACCES-editItem-layout[data-v-0b850261] {
   display: grid;
   grid-template-columns: 12% 12% 63% 10%;
   grid-column-gap: 12px;
@@ -487,12 +493,11 @@ div .detailsCellFile[data-v-e9d017ea] {
     "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT"
     "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO"
     "CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
-    "ALTA                 BAIXA                  .                     ."
-    "errorMessage         errorMessage           errorMessage          errorMessage";
+    "ALTA                 BAIXA                  .                     .";
 }
 
 
-.SERIE-REGLACONSERVACIO-editItem-layout[data-v-4c09549e] {
+.SERIE-REGLACONSERVACIO-editItem-layout[data-v-46b07fcf] {
   display: grid;
   grid-template-columns: 20% 20% 10% 15% 15% 15%;
   grid-column-gap: 12px;
@@ -503,8 +508,7 @@ div .detailsCellFile[data-v-e9d017ea] {
     "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
     "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
     "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
-    ".                     .                      .                      .                      ALTA                    BAIXA"
-    "errorMessage          errorMessage           errorMessage           errorMessage           errorMessage            errorMessage"
+    ".                     .                      .                      .                      ALTA                    BAIXA";
 }
 
 
@@ -546,15 +550,14 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.alta[data-v-6ff61526] {
+.alta[data-v-3487cec9] {
     margin-top: 8px;
 }
 
 
-.SISTEMA-INTERFICIECONNEXIO-CARREGA-editItem-layout[data-v-6ff61526] {
+.SISTEMA-INTERFICIECONNEXIO-CARREGA-editItem-layout[data-v-3487cec9] {
     display: grid;
     width: '1200px';
-    max-width: '1200px';
     grid-template-columns: repeat(4, 3fr);
     grid-column-gap: 12px;
     grid-template-areas:
@@ -568,12 +571,12 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.alta[data-v-506044bc] {
+.alta[data-v-d76d9ba0] {
     margin-top: 8px;
 }
 
 
-.SISTEMA-DESTI-editItem-layout[data-v-506044bc] {
+.SISTEMA-DESTI-editItem-layout[data-v-d76d9ba0] {
     display: grid;
     width: '1200px';
     max-width: '1200px';
@@ -628,7 +631,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 
 
 
-.SERIEDOCUMENTAL-edit-layout[data-v-216d715a] {
+.SERIEDOCUMENTAL-edit-layout[data-v-e063cd36] {
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
   margin: 0 auto;
@@ -645,17 +648,18 @@ div .detailsCellFile[data-v-e9d017ea] {
 .TRACTAMENTDADESPERSONALS-editItem-layout {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 15% 43% 10% 18% 18%;
+    grid-template-columns: 18% 43% 10% 15% 18%;
     grid-column-gap: 12px;
     grid-template-areas:
-      "ID_DISPOSICIONORMATIVA    ID_DISPOSICIONORMATIVA   TITLE               TITLE               TITLE"
-      "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT   RECOLLIDADEDADES    SISTEMATRACTAMENT"
-      "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES   PERSONESAFECTADES   PERSONESAFECTADES"
-      "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT           FINALITAT           FINALITAT"
-      "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT   TRANSFERENCIESINT   TRANSFERENCIESINT"
-      "MESURESDESEGURETAT        MESURESDESEGURETAT       .                   ALTA                BAIXA"
-      "errorMessage              errorMessage             errorMessage        errorMessage        errorMessage"
-  }
+      "TITLE                      TITLE                   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA"
+      "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT        RECOLLIDADEDADES         SISTEMATRACTAMENT"
+      "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES        PERSONESAFECTADES        PERSONESAFECTADES"
+      "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT                FINALITAT                FINALITAT"
+      "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT        TRANSFERENCIESINT        TRANSFERENCIESINT"
+      "MESURESDESEGURETAT        MESURESDESEGURETAT       .                        ALTA                     BAIXA"
+      "errorMessage              errorMessage             errorMessage             errorMessage             errorMessage"
+}
+
 .USUARI-editItem-layout {
     display: grid;
     margin: 0 auto;
@@ -721,24 +725,24 @@ div .detailsCellFile[data-v-e9d017ea] {
   border-top: 2px solid var(--theme-primary, #0078d4);
 }
 
-.detailsViewSelect-navTop[data-v-ab7bca4a] {
+.detailsViewSelect-navTop[data-v-5c441279] {
   display: flex;
   flex-direction: column-reverse;
 }
-.detailsViewSelect-navBottom[data-v-ab7bca4a] {
+.detailsViewSelect-navBottom[data-v-5c441279] {
   display: flex;
   flex-direction: column;
 }
-.detailsViewSelect-navigation[data-v-ab7bca4a] {
+.detailsViewSelect-navigation[data-v-5c441279] {
   display: flex;
 }
-.detailsViewSelect-navigation.detailsViewSelect-left[data-v-ab7bca4a] {
+.detailsViewSelect-navigation.detailsViewSelect-left[data-v-5c441279] {
   justify-content: flex-start;
 }
-.detailsViewSelect-navigation.detailsViewSelect-center[data-v-ab7bca4a] {
+.detailsViewSelect-navigation.detailsViewSelect-center[data-v-5c441279] {
   justify-content: center;
 }
-.detailsViewSelect-navigation.detailsViewSelect-right[data-v-ab7bca4a] {
+.detailsViewSelect-navigation.detailsViewSelect-right[data-v-5c441279] {
   justify-content: flex-end;
 }
 
@@ -840,7 +844,7 @@ div .detailsCellFile[data-v-e9d017ea] {
   justify-content: center;
 }
 
-.detailsGrid[data-v-cb3c5536] {
+.detailsGrid[data-v-3c346872] {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -856,30 +860,30 @@ div .detailsCellFile[data-v-e9d017ea] {
   border-color: var(--neutral-light, var(--neutral-light, #edebe9));
   position: relative;
 }
-.detailsGrid tr[data-v-cb3c5536] {
+.detailsGrid tr[data-v-3c346872] {
   height: 42px;
 }
-.detailsGrid thead tr[data-v-cb3c5536],
-.detailsGrid tbody tr[data-v-cb3c5536]:last-of-type {
+.detailsGrid thead tr[data-v-3c346872],
+.detailsGrid tbody tr[data-v-3c346872]:last-of-type {
   border-bottom: 1px solid var(--neutral-light, var(--neutral-light, #edebe9));
 }
-.detailsGrid tbody tr[data-v-cb3c5536]:first-of-type {
+.detailsGrid tbody tr[data-v-3c346872]:first-of-type {
   vertical-align: top;
 }
-.detailsGrid tbody tr:first-of-type td[data-v-cb3c5536] {
+.detailsGrid tbody tr:first-of-type td[data-v-3c346872] {
   padding-top: 5px;
   height: calc(100% - 5px);
 }
-.detailsGrid tbody[data-v-cb3c5536]:hover {
+.detailsGrid tbody[data-v-3c346872]:hover {
   background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
 }
-.detailsGrid tbody td[data-v-cb3c5536] {
+.detailsGrid tbody td[data-v-3c346872] {
   height: 42px;
 }
-.detailsGrid-headerCell[data-v-cb3c5536]:hover {
+.detailsGrid-headerCell[data-v-3c346872]:hover {
   background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
 }
-.detailsGrid-headerTitle[data-v-cb3c5536] {
+.detailsGrid-headerTitle[data-v-3c346872] {
   box-sizing: border-box;
   min-height: 42px;
   padding: 0px 8px 0px 12px;
@@ -893,12 +897,12 @@ div .detailsCellFile[data-v-e9d017ea] {
   font-size: 14px;
   font-weight: 600;
 }
-.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-cb3c5536] {
+.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-3c346872] {
   padding-left: 4px;
 }
-.fura-stickyHeader thead th[data-v-cb3c5536] {
+.fura-stickyHeader thead th[data-v-3c346872] {
   position: sticky;
-  top: var(--39144d80);
+  top: var(--21b4a0e4);
   background: var(--white, var(--white, #ffffff));
   z-index: 1;
 }
@@ -942,20 +946,20 @@ div .detailsCellFile[data-v-e9d017ea] {
   align-items: flex-start;
 }
 
-.filterForm-checkbox[data-v-3a975916] {
+.filterForm-checkbox[data-v-275189ca] {
   margin: 10px 0;
 }
-.filterForm-multiple[data-v-3a975916] {
+.filterForm-multiple[data-v-275189ca] {
   display: flex;
   justify-content: space-between;
 }
-.filterForm-multiple > div[data-v-3a975916] {
+.filterForm-multiple > div[data-v-275189ca] {
   flex: 1 1 0px;
 }
-.filterForm-multiple > div[data-v-3a975916]:not(:first-child) {
+.filterForm-multiple > div[data-v-275189ca]:not(:first-child) {
   margin-left: 5px;
 }
-.filterForm-multiple > div[data-v-3a975916]:not(:last-child) {
+.filterForm-multiple > div[data-v-275189ca]:not(:last-child) {
   margin-right: 5px;
 }
 
