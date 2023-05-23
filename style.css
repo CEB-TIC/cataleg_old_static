@@ -72,6 +72,26 @@ div[data-v-29f5092a] {
   right: 0px !important;
 }
 
+div[data-v-d1615be0] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-d1615be0] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-d1615be0] {
+  justify-content: center;
+}
+.fura-right div[data-v-d1615be0] {
+  justify-content: flex-end;
+}
+
 .field[data-v-1980b3b4] .fura-elementWrapper::after {
   right: 0px !important;
 }
@@ -84,34 +104,15 @@ div[data-v-29f5092a] {
   right: 0px !important;
 }
 
-div[data-v-e9d017ea] {
-  box-sizing: border-box;
-  min-height: 42px;
-  padding: 0px 8px 0px 12px;
-  margin: 0;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  outline: 0;
-}
-.fura-left div[data-v-e9d017ea] {
-  justify-content: flex-start;
-}
-.fura-center div[data-v-e9d017ea] {
-  justify-content: center;
-}
-.fura-right div[data-v-e9d017ea] {
-  justify-content: flex-end;
-}
-div .detailsCellFile[data-v-e9d017ea] {
-  font-size: 16px;
-}
-
 .field[data-v-3746c692] .fura-wrapper::after {
   right: 0px !important;
 }
 
 .field[data-v-bccf8768] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-7d8388f4] .fura-wrapper::after {
   right: 0px !important;
 }
 
@@ -132,548 +133,181 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.AGENT-editItem-layout[data-v-99e4ebae] {
-  display: grid;
-  grid-template-columns: 20% 25% 25% 13% 13%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "CODI             TITLE           TITLE           ID_TIPUSAGENT    ID_TIPUSAGENT"
-    "AGENTOROL        AGENT_FORMATPER AGENT_FORMATPER AGENT_FORMATPER  AGENT_FORMATPER"
-    "TIPUSDEPENDENCIA ID_DEPENDE      ID_DEPENDE      ID_DEPENDE       ID_DEPENDE"
-    "CONTACTE         CONTACTE        MAILCONTACTE    MAILCONTACTE     MAILCONTACTE"
-    ".                .               .               ALTA             BAIXA"
-    "errorMessage     errorMessage    errorMessage    errorMessage     errorMessage";
-}
-
-
-
-.alta[data-v-3288286c] {
-    margin-top: 8px;
-}
-
-
-.RELACIO-edit-layout[data-v-3288286c] {
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
-
-.DADAELEMENTAL-editItem-layout {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(4, 3fr);
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "TITLE                            TITLE                           TITLE                             ID_TIPUSDADA"
-      "DADAELEMENTAL_INTEROPERABILITAT  DADAELEMENTAL_INTEROPERABILITAT DADAELEMENTAL_INTEROPERABILITAT   ID_OBJECTEDADA"
-      ".                                .                               .                                 NIVELLDESEGURETAT"
-      "errorMessage                     errorMessage                    errorMessage                      errorMessage"
-  }
-
-.DISPOSICIONORMATIVA-editItem-layout[data-v-1cf08b05] {
-  display: grid;
-  grid-template-columns: 2fr 2fr 8fr;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "CODI          TITLE         TITLE"
-    "NOMLLARG      NOMLLARG      NOMLLARG"
-    "RANG          AMBIT         URLDISPOSICIO"
-    "ALTA          BAIXA         ."
-    "errorMessage  errorMessage  errorMessage"
-}
-
-
-.DISPOSICIONORMATIVA-TRACTAMENTDADESPERSONALS-editItem-layout[data-v-34d18808] {
-  display: grid;
-  grid-template-columns: 1fr 6fr 1fr 2fr 2fr;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_DISPOSICIONORMATIVA    ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA"
-    "TITLE                     TITLE                    TITLE                    TITLE                    TITLE"
-    "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT        RECOLLIDADEDADES         SISTEMATRACTAMENT"
-    "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES        PERSONESAFECTADES        PERSONESAFECTADES"
-    "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT                FINALITAT                FINALITAT"
-    "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT        TRANSFERENCIESINT        TRANSFERENCIESINT"
-    "MESURESDESEGURETAT        MESURESDESEGURETAT       .                        ALTA                     BAIXA"
-    "errorMessage              errorMessage             errorMessage             errorMessage             errorMessage"
-}
-
-
-.EVIDENCIA-editItem-layout[data-v-c6ceca4c] {
-  display: grid;
-  grid-template-columns: 17% 15% 22% 17% 15% 15%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
-    "TITLE                TITLE                     TITLE                     TIPUS                      REGISTREENTRADA            REGISTRESORTIDA"
-    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ."
-    "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
-    "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
-    "ID_TIPUSMODEL        ID_TIPUSMODEL             EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
-    ".                    .                         .                         .                          ALTA                       BAIXA"
-    "errorMessage         errorMessage              errorMessage              errorMessage               errorMessage               errorMessage";
-}
-
-
-
-.alta[data-v-0ec929a4] {
-    margin-top: 8px;
-}
-
-
-.RELACIO-edit-layout[data-v-0ec929a4] {
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.INTERFICIECONNEXIO-editItem-layout[data-v-9bf8f21c] {
-    display: grid;
-    grid-template-columns: 15% 15% 22% 22% 22%;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
-      "ID_TIPUSINTERFICIE                ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
-      "ID_TIPUSIMPORTACIO                ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
-      "INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES"
-      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
-      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
-      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
-      "ALTA                              BAIXA                             .                                 .                                 ."
-      "errorMessage                      errorMessage                      errorMessage                      errorMessage                      errorMessage"
-      "INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT";
-}
-
-
-.MODELDOCUMENT-editItem-layout {
-    display: grid;
-    margin: 0 auto;
-    max-width: 900px;  grid-template-columns: 3fr 1fr 2fr 2fr 2fr 2fr;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "CODI                       VERSIO                     TITLE                      TITLE                      TITLE                      TITLE"
-      "ID_TIPUS                   ID_FORMAT                  .                          FIDESENVOLUPAMENT          ACCEPTACIO                 POSSADAPRODUCCIO"
-      "URL                        URL                        URL                        URL                        ALTA                       BAIXA"
-      "MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT"
-      "errorMessage               errorMessage               errorMessage               errorMessage               errorMessage               errorMessage"
-  }
-.OBJECTEDADA-editItem-layout {
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: 90%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "TITLE"
-    "TIPUS"
-    "SUPEROBJECTE"
-    "errorMessage"
-}
-
-
-.PROCES-editItem-layout[data-v-24f2d710] {
-  display: grid;
-  margin: 0 auto;
-  max-width: 1200px;
-  grid-template-columns: 12% 12% 18% 15% 12% 15%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "CODI                TITLE               TITLE                TITLE                TIPUS                  TIPUS"
-    "ID_TIPUSRESPONSABLE ID_TIPUSRESPONSABLE  ID_RESPONSABLE      ID_RESPONSABLE       ID_RESPONSABLE         AMBIT"
-    "ID_FAMILIA          ID_FAMILIA          ID_TIPUSINICIACIO    ID_TIPUSFINALITZACIO ID_TIPUSFINALITZACIO   ID_TIPUSFINALITZACIO"
-    "ID_FAMILIAOPAE      ID_FAMILIAOPAE      ID_TIPUSRECURSPROCES ID_TIPUSRECURSPROCES MACROPROCES            NECESSITATDEPAGAMENT"
-    "PROCES_DISPOSICIO   PROCES_DISPOSICIO   PROCES_DISPOSICIO    URLDIAGRAMA          URLDIAGRAMA            URLDIAGRAMA"
-    "DESTINATARIS        DESTINATARIS        DESTINATARIS         DESTINATARIS         ALTA                   BAIXA"
-    "errorMessage        errorMessage        errorMessage         errorMessage         errorMessage           errorMessage";
-}
-
-
-
-.PROCES-TASCA-editItem-layout[data-v-1a9dff61] {
-  padding: 4px;
-  width: 1050px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: grid;
-  grid-template-columns: 3fr 6fr 3fr;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES               ID_PROCES               ID_PROCES"
-    "CODI                    TITLE                   TITLE"
-    "ID_FORMABPMN            NOMCURT                 NOMCURT"
-    "ID_TIPUSAGENT           ID_AGENT                ID_AGENT"
-    "ID_TIPUSTASCA           TASCA_PRECEDENT         LINKTITLE"
-    "TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA"
-    "TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA"
-    "DESCRIPCIO              DESCRIPCIO              DESCRIPCIO"
-    "errorMessage            errorMessage            errorMessage";
-}
-
-
-
-.PROCES-EVIDENCIA-editItem-layout[data-v-38c8aeee] {
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: grid;
-  grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES           ID_PROCES                ID_PROCES                ID_PROCES                ID_PROCES"
-    "CODI                TITLE                    TITLE                    TIPUS                    CARACTER"
-    "ID_SERIEDOCUMENTAL  ID_SERIEDOCUMENTAL       ID_SERIEDOCUMENTAL       REGISTREENTRADA          REGISTRESORTIDA"
-    "ID_TIPUSPRODUCTOR   ID_PRODUCTOR             ID_PRODUCTOR             AUTENTIFICACIO           AUTENTIFICACIO"
-    "ID_TIPUSDESTINATARI ID_DESTINATARI           ID_DESTINATARI           ID_FORMAT                ESSENCIAL"
-    "ID_SISTEMA          ID_SISTEMA               ID_DEPENDENCIA           ID_DEPENDENCIA           ID_DEPENDENCIA"
-    "ID_TIPUSMODEL       EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT"
-    ".                   .                        .                        ALTA                     BAIXA"
-    "errorMessage        errorMessage             errorMessage             errorMessage             errorMessage";
-}
-
-
-
-.PROCES-SERIEDOCUMENTAL-editItem-layout[data-v-7d9d90e6] {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES             ID_PROCES"
-    "CODI                        TITLE                       TITLE                       TITLE                       DIGITAL               VITAL"
-    "CLASSIFICACIO               TITOLCORPORATIU             TITOLCORPORATIU             TITOLCORPORATIU             CARACTER              CARACTER"
-    "ID_TIPUSPRODUCTOR           ID_PRODUCTOR                ID_PRODUCTOR                ID_PRODUCTOR                CRITERINORMALITZACIO  CRITERINORMALITZACIO"
-    "ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ALTA                  BAIXA"
-    "errorMessage                errorMessage                errorMessage                errorMessage                errorMessage          errorMessage";
-}
-
-
-.PROCES-PROCES-editItem-layout[data-v-d2999476] {
-  width: 780px;
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-
-.PROCES-INDICADOR-editItem-layout[data-v-58ca086b] {
-  max-width: 870px;
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: grid;
-  grid-template-columns: 4fr 8fr;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES          ID_PROCES"
-    "ID_TIPUSINDICADOR  TITLE"
-    "PERIODICITATMESURA PERIODICITATMESURA"
-    "CONCEPTE           CONCEPTE"
-    "DESCRIPCIO         DESCRIPCIO"
-    "FORMULADECALCUL    FORMULADECALCUL"
-    "errorMessage       errorMessage";
-}
-
-
-.INDICADOR-editItem-layout {
-    display: grid;
-    margin: 0 auto;
-    max-width: 1200px;
-    grid-template-columns: 1fr 1fr 3fr;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "ID_PROCES       ID_PROCES        ID_TIPUSINDICADOR"
-      "TITLE           TITLE            PERIODICITATMESURA"
-      "CONCEPTE        CONCEPTE         CONCEPTE"
-      "DESCRIPCIO      DESCRIPCIO       DESCRIPCIO"
-      "FORMULADECALCUL FORMULADECALCUL  FORMULADECALCUL"
-      "ALTA            BAIXA            ."
-      "errorMessage    errorMessage     errorMessage";
-  }
-
-.QUADRECOMANDAMENT-editItem-layout[data-v-291aa364] {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr 5fr 2fr 2fr;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "CODI                       TITLE                      TITLE                      TITLE                      TITLE"
-      "ID_TIPUSQUADRE             FINALITAT                  FINALITAT                  FINALITAT                  FINALITAT"
-      "QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI"
-      "DESTINATARIS               DESTINATARIS               DESTINATARIS               ALTA                       BAIXA"
-      "errorMessage               errorMessage               errorMessage               errorMessage               errorMessage";
-}
-
-
-
-.REGLAACCES-editItem-layout[data-v-58642a5a] {
-  display: grid;
-  grid-template-columns: 12% 12% 9% 54% 12%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL    NUMERO"
-    "INICI                INICI                  TERMINI               TERMINI               TERMINI"
-    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO             RESOLUCIO"
-    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT              ID_AGENT"
-    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO      CRITERIAPLICACIO"
-    "CRITERIPUBLICITAT    CRITERIPUBLICITAT      CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
-    "ALTA                 BAIXA                  .                     .                     .";
-}
-
-
-.REGLACONSERVACIO-editItem-layout[data-v-29ef8ad1] {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 25% 25% 10% 15% 15% 15%;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL      NUMEROREGLA"
-      "ESDEVENIMENTINICI     ESDEVENIMENTINICI      ESDEVENIMENTINICI      TERMINI                TERMINI                 TERMINI"
-      "RESOLUCIO             ID_FORMATDESTI         ID_FORMATDESTI         SUPORTDESTI            ID_DIPOSITDESTI         ID_DIPOSITDESTI"
-      "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
-      "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
-      "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
-      ".                     .                      .                      .                      ALTA                    BAIXA";
-}
-
-
-.SERIEDOCUMENTAL-editItem-layout[data-v-772bd458] {
-  display: grid;
-  grid-template-columns: 15% 15% 15% 15% 15% 15%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES             ID_PROCES"
-    "CODI                        TITLE                       TITLE                       TITLE                       DIGITAL               VITAL"
-    "CLASSIFICACIO               TITOLCORPORATIU             TITOLCORPORATIU             TITOLCORPORATIU             CARACTER              CARACTER"
-    "ID_TIPUSPRODUCTOR           ID_PRODUCTOR                ID_PRODUCTOR                ID_PRODUCTOR                CRITERINORMALITZACIO  CRITERINORMALITZACIO"
-    "ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ALTA                  BAIXA"
-    "errorMessage                errorMessage                errorMessage                errorMessage                errorMessage          errorMessage";
-}
-
-
-.SERIE-DEPENDENCIES-edit-layout[data-v-ce481456] {
-  padding: 4px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.SERIEDOCUMENTAL-EVIDENCIA-editItem-layout[data-v-ee6d0b46] {
-  display: grid;
-  grid-template-columns: 17% 15% 20% 17% 14% 14%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
-    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ID_FORMAT"
-    "TITLE                TITLE                     TITLE                     TIPUS                      REGISTREENTRADA            REGISTRESORTIDA"
-    "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
-    "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
-    "ID_TIPUSMODEL        ID_TIPUSMODEL             EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
-    ".                    .                         .                         .                          ALTA                       BAIXA"
-    "errorMessage         errorMessage              errorMessage              errorMessage               errorMessage               errorMessage";
-}
-
-
-
-.SERIE-REGLAACCES-editItem-layout[data-v-0b850261] {
-  display: grid;
-  grid-template-columns: 12% 12% 63% 10%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL    NUMERO"
-    "INICI                INICI                  TERMINI               TERMINI"
-    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO"
-    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT"
-    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO"
-    "CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
-    "ALTA                 BAIXA                  .                     .";
-}
-
-
-.SERIE-REGLACONSERVACIO-editItem-layout[data-v-46b07fcf] {
-  display: grid;
-  grid-template-columns: 20% 20% 10% 15% 15% 15%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL      NUMEROREGLA"
-    "ESDEVENIMENTINICI     ESDEVENIMENTINICI      ESDEVENIMENTINICI      TERMINI                TERMINI                 TERMINI"
-    "RESOLUCIO             ID_FORMATDESTI         ID_FORMATDESTI         SUPORTDESTI            ID_DIPOSITDESTI         ID_DIPOSITDESTI"
-    "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
-    "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
-    "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
-    ".                     .                      .                      .                      ALTA                    BAIXA";
-}
-
-
-.SISTEMAINFORMACIO-editItem-layout[data-v-666fb3a4] {
-    max-width: 1200px;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 12% 25% 10% 10% 10% 10% 10% 3% 18%;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "TITLE                              TITLE                              TITLE                              CODI                     URL                      URL                      URL                                URL                                NOMCURT"
-      "ID_TIPUSPROMOTOR                   ID_PROMOTOR                        ID_PROMOTOR                        RESPFUNCIONAL            RESPFUNCIONAL            RESPFUNCIONAL            GESTORTIC                          GESTORTIC                          GESTORTIC"
-      "LOTCPD                             ID_PROVEIDOR                       ID_PROVEIDOR                       SISTEMAINFORMACIO_ENTORN SISTEMAINFORMACIO_ENTORN SISTEMAINFORMACIO_ENTORN SISTEMAINFORMACIO_ENTORNTECNOLOGIC SISTEMAINFORMACIO_ENTORNTECNOLOGIC SISTEMAINFORMACIO_ENTORNTECNOLOGIC"
-      "CODISERVEICPD                      ID_MODELDESERVEI                   ID_MODELDESERVEI                   ABAST                    ABAST                    ABAST                    CODICLIENTADMINISTRATIU            CODICLIENTADMINISTRATIU            CODICLIENTADMINISTRATIU"
-      "RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES  RESTRICCIONSSEMANTIQUES  RESTRICCIONSSEMANTIQUES  ID_CONTROLACCES                    ID_CONTROLACCES                    ID_CONTROLINTEGRITAT"
-      "SISTEMAINFORMACIO_UNITATDESCRIPCIO SISTEMAINFORMACIO_UNITATDESCRIPCIO SISTEMAINFORMACIO_UNITATDESCRIPCIO RESTRICCIONSFORMAT       RESTRICCIONSFORMAT       RESTRICCIONSFORMAT       RTO                                RTO                                RPO"
-      "ID_CLASSIFICACIOENS                ID_CLASSIFICACIOENS                DIALEGCTTI                         ANS                      ANS                      NAQ                      NAQ                                NAQ                                DATAINICIPRODUCCIO"
-      ".                                  .                                  .                                  .                        .                        .                        ALTA                               ALTA                               BAIXA"
-      "errorMessage                       errorMessage                       errorMessage                       errorMessage             errorMessage             errorMessage             errorMessage                       errorMessage                       errorMessage";
-}
-
-
-
-.SISTEMAINFORMACIO-INDICADORSISTEMA-editItem-layout[data-v-32c4c3b6] {
+.AANEE_ALUMNE-editItem-general[data-v-aaab3aa0] {
     padding: 4px;
     margin-top: 2px;
-    margin-left: 4px;
+    margin-left:4px;
+    max-width:1080px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 12px;
+    grid-template-columns: 12% 17% 14% 14% 17% 12% 13%;
+    grid-column-gap: 6px;
     grid-template-areas:
-      "ID_SISTEMA            ID_SISTEMA"
-      "ID_TIPUSINDICADOR     TITLE"
-      "PERIODICITATMESURA    PERIODICITATMESURA"
-      "CONCEPTE              CONCEPTE"
-      "DESCRIPCIO            DESCRIPCIO"
-      "FORMULADECALCUL       FORMULADECALCUL"
-      "errorMessage          errorMessage";
+      'IDALU         NOM                        COGNOM1                    COGNOM1                    COGNOM2                  COGNOM2              COGNOM2'
+      'ID_ORIGEN     TIPUS_ALUMNE               ID_NIVELL                  DATA_NAIXEMENT             ID_EAP                   ID_EAP               ID_EAP'
+      'LABEL_MARCA   MARCA_AUTO                 MARCA_AUTO                 MARCA_AUTO                 MARCA_MANUAL             MARCA_FINAL          CREATED'
+      'errorMessage  errorMessage               errorMessage               errorMessage               errorMessage             errorMessage         errorMessage'
 }
 
 
-.alta[data-v-3487cec9] {
-    margin-top: 8px;
-}
 
-
-.SISTEMA-INTERFICIECONNEXIO-CARREGA-editItem-layout[data-v-3487cec9] {
+.AANEE_ALUMNE-PERSONAL-editItem-personal[data-v-1c76b632] {
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:4px;
+    max-width:1080px;
     display: grid;
-    width: '1200px';
-    grid-template-columns: repeat(4, 3fr);
-    grid-column-gap: 12px;
+    grid-template-columns: 20% 12% 12% 20% 18% 18%;
+    grid-column-gap: 6px;
     grid-template-areas:
-      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
-      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
-      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
-      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
-      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
-      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
-      "ALTA                              BAIXA                             .                                 .";
+    'IDENTIFICACIO_FISCAL   ADRECA_RESIDENCIA   ADRECA_RESIDENCIA   ADRECA_RESIDENCIA   CP_RESIDENCIA                 ID_DISTRICTE_RESIDENCIA'
+    'NOM_TUTOR1             COGNOM1_TUTOR1      COGNOM1_TUTOR1      COGNOM2_TUTOR1      IDENTIFICACIO_FISCAL_TUTOR1   TELEFON_TUTOR1'
+    'NOM_TUTOR2             COGNOM1_TUTOR2      COGNOM1_TUTOR2      COGNOM2_TUTOR2      IDENTIFICACIO_FISCAL_TUTOR2   TELEFON_TUTOR2'
+    'EMAIL_TUTOR1           EMAIL_TUTOR1        EMAIL_TUTOR2        EMAIL_TUTOR2        ID_CENTRE_PROCEDENCIA         ID_CENTRE_PROCEDENCIA'
+    'GEDAC                  GEDAC               GEDAC               GEDAC               GEDAC                         GEDAC'
 }
-
-
-.alta[data-v-d76d9ba0] {
-    margin-top: 8px;
-}
-
-
-.SISTEMA-DESTI-editItem-layout[data-v-d76d9ba0] {
+.gedac[data-v-1c76b632] {
+    padding: 4px;
+    margin-left:4px;
+    max-width:1080px;
     display: grid;
-    width: '1200px';
-    max-width: '1200px';
-    grid-template-columns: repeat(4, 3fr);
-    grid-column-gap: 12px;
+    grid-template-columns: 20% 24% 20% 18% 18%;
+    grid-column-gap: 6px;
     grid-template-areas:
-      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
-      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
-      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
-      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
-      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
-      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
-      "ALTA                              BAIXA                             .                                 .";
+    'LABEL_GEDAC            NOM                    COGNOM1                COGNOM2                       DATA_NAIXEMENT'
+    'IDENTIFICACIO_FISCAL   ADRECA_RESIDENCIA      ADRECA_RESIDENCIA      CP_RESIDENCIA                 MUNICIPI_RESIDENCIA'
+    'NOM_TUTOR1             COGNOM1_TUTOR1         COGNOM2_TUTOR1         IDENTIFICACIO_FISCAL_TUTOR1   .'
+    'NOM_TUTOR2             COGNOM1_TUTOR2         COGNOM2_TUTOR2         IDENTIFICACIO_FISCAL_TUTOR2   .'
+    'EMAIL                  EMAIL                  TELEFON                IDALU_GEDAC                   ID_NIVELL'
+    '.                      ID_CENTRE_1AOPCIO      ID_CENTRE_1AOPCIO      ID_CENTRE_1AOPCIO             TITULARITAT_CENTRE_1AOPCIO'
+    '.                      ID_CENTRE_PROCEDENCIA  ID_CENTRE_PROCEDENCIA  ID_CENTRE_PROCEDENCIA         TITULARITAT_CENTRE_PROCEDENCIA'
 }
 
 
-.SISTEMAINFORMACIO_INDICADOR-edit-layout[data-v-70edc4b0] {
+
+.AANEE-ALUMNE-editItem-NEEA {
+    padding: 4px;
+    margin-top: -4px;
+    margin-left: 10px;
+    display: grid;
+    max-width: 1080px;
+    grid-template-columns: 6% 17% 12% 19% 19% 25%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+    'LABEL_NEEA_I  AVALUACIO_NEEA_EAP_I       PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  PROFESSIONAL_ASSIGNAT_NEEA_I  NUM_SOLICITUD_EE_I'
+    '.             ES_NEEA_I                  TIPUS_ESCOLARITZACIO_I        SENSE_BARRERES_I              SIEI_I                        SIAL_I'
+    '.             ACORD_NEEA_I               ID_MOTIU_NESE_I               ID_MOTIU_NESE_I               .                             DISTANCIES_I'
+    '.             CENTRE1_I                  ID_CENTRE_PROPOSAT1_I         ID_CENTRE_PROPOSAT1_I         ID_CENTRE_PROPOSAT1_I         DISTANCIA_CENTRE_PROPOSAT1_I'
+    '.             CENTRE2_I                  ID_CENTRE_PROPOSAT2_I         ID_CENTRE_PROPOSAT2_I         ID_CENTRE_PROPOSAT2_I         DISTANCIA_CENTRE_PROPOSAT2_I'
+    '.             CENTRE3_I                  ID_CENTRE_PROPOSAT3_I         ID_CENTRE_PROPOSAT3_I         ID_CENTRE_PROPOSAT3_I         DISTANCIA_CENTRE_PROPOSAT3_I'
+    '.             COMPARTIDA_I               ID_CENTRE_COMPARTIDA_I        ID_CENTRE_COMPARTIDA_I        ID_CENTRE_COMPARTIDA_I        DISTANCIA_CENTRE_COMPARTIDA_I'
+    '.             CENTRE_G_I                 ID_CENTRE_GERMANS_I           ID_CENTRE_GERMANS_I           ID_CENTRE_GERMANS_I           INSCRIPCIOFINAL_NEEA_I'
+    '.             INSCRIT_ORDINARI_GEDAC_I   CENTRE_CRAE_I                 GERMA_BESSO_ORDINARI_I        ACOLLIMENT_DGAIA_I            AVALUACIO_NEEA_I'
+    '.             .                          .                             RETENCIO_I                    CEEPSIR_I                     .'
+    'LABEL_NEEA    AVALUACIO_NEEA_EAP         PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    PROFESSIONAL_ASSIGNAT_NEEA    NUM_SOLICITUD_EE'
+    '.             ES_NEEA                    TIPUS_ESCOLARITZACIO          SENSE_BARRERES                SIEI                          SIAL'
+    '.             ACORD_NEEA                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 ID_MOTIU_NESE                 DISTANCIES'
+    '.             CENTRE1                    ID_CENTRE_PROPOSAT1Codi       ID_CENTRE_PROPOSAT1Nom        ID_CENTRE_PROPOSAT1Nom        DISTANCIA_CENTRE_PROPOSAT1'
+    '.             CENTRE2                    ID_CENTRE_PROPOSAT2Codi       ID_CENTRE_PROPOSAT2Nom        ID_CENTRE_PROPOSAT2Nom        DISTANCIA_CENTRE_PROPOSAT2'
+    '.             CENTRE3                    ID_CENTRE_PROPOSAT3Codi       ID_CENTRE_PROPOSAT3Nom        ID_CENTRE_PROPOSAT3Nom        DISTANCIA_CENTRE_PROPOSAT3'
+    '.             COMPARTIDA                 ID_CENTRE_COMPARTIDACodi      ID_CENTRE_COMPARTIDANom       ID_CENTRE_COMPARTIDANom       DISTANCIA_CENTRE_COMPARTIDA'
+    '.             CENTRE_G                   ID_CENTRE_GERMANSCodi         ID_CENTRE_GERMANSNom          ID_CENTRE_GERMANSNom          INSCRIPCIOFINAL_NEEA'
+    '.             INSCRIT_ORDINARI_GEDAC     CENTRE_CRAE                   GERMA_BESSO_ORDINARI          ACOLLIMENT_DGAIA              AVALUACIO_NEEA'
+    '.             .                          .                             RETENCIO                      CEEPSIR                       PENDENT_INSCRIPCIO_FINAL_NEEA';
+}
+
+
+.AANEE_ALUMNE-editItem-neeb[data-v-58128ee3] {
+    padding: 4px;
+    margin-left:20px;
+    max-width:1200px;
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 17% 20% 20% 21% 20%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+    'ES_NEEB           AVALUACIO_NEEB        PROFESSIONAL_ASSIGNAT_NEEB   PROFESSIONAL_ASSIGNAT_NEEB    ID_MOTIU_VULNERABILITAT'
+    'ENTREVISTAR_NEEB  DATATRUCADA_NEEB      INSCRIT_ORDINARI_GEDAC       INSCRIPCIOFINAL_NEEB          INSCRIPCIOFINAL_NEEB'
+    'ESTA_RAV          ID_ESTAT_RAV          ID_ESTAT_VULNERABLE          ID_ESTAT_PLAXOC               ID_MOTIU_VULNERABILITAT_RAV'
+    'RENDA_MINIMA      RENDA_MINIMA_VALIDAT  ACOLLIMENT_FAMILIAR          ACOLLIMENT_FAMILIAR_VALIDAT   SITUACIO_ACOLLIMENT'
+    'OBS_NEEB          OBS_NEEB              OBS_NEEB                     OBS_NEEB                      OBS_NEEB'
+}
+
+
+.AANEE_ALUMNE-editItem-gedac[data-v-214d0099] {
+    padding: 4px;
+    margin-top: -4px;
+    margin-left: 10px;
+    display: grid;
+    max-width:1080px;
+    grid-template-columns: 10% 15% 15% 60%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+    'LABEL_GEDAC_I  NUM_SOLICITUD_I          TIPUS_ALUMNE_I           ID_NIVELL_I'
+    '.              ID_CENTRE_PROCEDENCIA_I  ID_CENTRE_PROCEDENCIA_I  ID_CENTRE_PROCEDENCIA_I'
+    '.              ID_CENTRE_1AOPCIO_I      ID_CENTRE_1AOPCIO_I      ID_CENTRE_1AOPCIO_I'
+    'LABEL_GEDAC    NUM_SOLICITUD            TIPUS_ALUMNE             ID_NIVELL'
+    '.              ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA    ID_CENTRE_PROCEDENCIA'
+    '.              ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO        ID_CENTRE_1AOPCIO'
+}
+.xecini[data-v-214d0099] {
+    margin-top: 4px;
+    padding: 4px;
+    width: 100%;
+    display: grid;
+    border-left: 1px solid #bbbbbb;
+    grid-template-columns: 100%;
+    grid-column-gap: 4px;
+    grid-template-areas:
+      'ACOLLIMENT_GEDAC_INI'
+      'GERMANSCENTRE_GEDAC_INI'
+      'TRASLLATFORCOS_GEDAC_INI'
+      'ASSIGNACIO_MANUAL_GEDAC_INI'
+}
+.xec[data-v-214d0099] {
+    margin-top: 4px;
+    padding: 4px;
+    width: 100%;
+    display: grid;
+    border-left: 1px solid #bbbbbb;
+    grid-template-columns: 100%;
+    grid-column-gap: 4px;
+    grid-template-areas:
+      'ACOLLIMENT_GEDAC'
+      'GERMANSCENTRE_GEDAC'
+      'TRASLLATFORCOS_GEDAC'
+      'ASSIGNACIO_MANUAL_GEDAC'
+}
+
+
+.AANEE_ALUMNE-editItem-assignacio[data-v-6b794062] {
+    padding: 4px;
+    margin-top: -4px;
+    margin-left: 10px;
+    display: grid;
+    max-width:1080px;
+    grid-template-columns: 15% 15% 15% 20% 15% 15%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+    '.                      .                           .                           .                           .                           DISTANCIES'
+    'LABEL_ASSIGNACIO_CEB   ID_CENTRE_ASSIGNAT_CEBCodi  ID_CENTRE_ASSIGNAT_CEBNom   ID_CENTRE_ASSIGNAT_CEBNom   ID_CENTRE_ASSIGNAT_CEBNom   DISTANCIA_CENTRE_ASSIGNAT_CEB'
+    'LABEL_ASSIGNACIO       ID_CENTRE_ASSIGNATCodi      ID_CENTRE_ASSIGNATNom       ID_CENTRE_ASSIGNATNom       ID_CENTRE_ASSIGNATNom       DISTANCIA_CENTRE_ASSIGNAT'
+    'LABEL_1AOPCIO          ID_CENTRE_1AOPCIOCodi       ID_CENTRE_1AOPCIONom        ID_CENTRE_1AOPCIONom        ID_CENTRE_1AOPCIONom        .'
+    'GRUP_ASSIGNACIO        ORDRE_ASSIGNACIO            TIPUS_ASSIGNACIO            OPCIO_ASSIGNACIO            ASSIGNACIO_OFICI            LLISTA_ESPERA'
+    '.                      .                           .                           .                           ASSIGNACIO_MANUAL_GEDAC     ASSIGNACIO_MANUAL_GEDAC';
+};
+
+
+.AANEE_ALUMNE-editItem-layout-observacions[data-v-74083f44] {
   display: grid;
   margin: 0 auto;
-  max-width: 1100px;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: 12px;
+  max-width:1080px;
+  grid-template-columns: 100%;
   grid-template-areas:
-    "ID_SISTEMA       ID_TIPUSINDICADOR"
-    "TITLE            PERIODICITATMESURA"
-    "CONCEPTE         CONCEPTE"
-    "DESCRIPCIO       DESCRIPCIO"
-    "FORMULADECALCUL  FORMULADECALCUL"
-    "errorMessage     errorMessage";
+  'OBS_INCLUSIVA'
+  'OBS_ESCOLARITZACIO';
 }
 
-
-.TASCA-editItem-layout[data-v-716e3aa4] {
-  padding: 4px;
-  width: 1050px;
-  margin-top: 2px;
-  margin-left: 4px;
-  display: grid;
-  grid-template-columns: 23% 50% 23%;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES               ID_PROCES               ID_PROCES"
-    "CODI                    TITLE                   TITLE"
-    "ID_FORMABPMN            NOMCURT                 NOMCURT"
-    "ID_TIPUSAGENT           ID_AGENT                ID_AGENT"
-    "ID_TIPUSTASCA           TASCA_PRECEDENT         LINKTITLE"
-    "TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA"
-    "TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA"
-    "DESCRIPCIO              DESCRIPCIO              DESCRIPCIO"
-    "errorMessage            errorMessage            errorMessage";
-}
-
-
-
-.SERIEDOCUMENTAL-edit-layout[data-v-e063cd36] {
-  display: grid;
-  grid-template-columns: 15% 15% 15% 15% 15% 15%;
-  margin: 0 auto;
-  grid-column-gap: 12px;
-  grid-template-areas:
-    "ID_PROCES          ID_PROCES         ID_PROCES         ID_PROCES         ID_PROCES             ID_PROCES"
-    "CODI               TITLE             TITLE             TITLE             DIGITAL               VITAL"
-    "CLASSIFICACIO      TITOLCORPORATIU   TITOLCORPORATIU   TITOLCORPORATIU   CARACTER              CARACTER"
-    "ID_TIPUSPRODUCTOR  ID_PRODUCTOR      ID_PRODUCTOR      ID_PRODUCTOR      CRITERINORMALITZACIO  CRITERINORMALITZACIO"
-    ".                  .                 .                 .                 ALTA                  BAIXA"
-    "errorMessage       errorMessage      errorMessage      errorMessage      errorMessage          errorMessage";
-}
-
-.TRACTAMENTDADESPERSONALS-editItem-layout {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 18% 43% 10% 15% 18%;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "TITLE                      TITLE                   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA"
-      "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT        RECOLLIDADEDADES         SISTEMATRACTAMENT"
-      "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES        PERSONESAFECTADES        PERSONESAFECTADES"
-      "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT                FINALITAT                FINALITAT"
-      "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT        TRANSFERENCIESINT        TRANSFERENCIESINT"
-      "MESURESDESEGURETAT        MESURESDESEGURETAT       .                        ALTA                     BAIXA"
-      "errorMessage              errorMessage             errorMessage             errorMessage             errorMessage"
-}
-
-.USUARI-editItem-layout {
-    display: grid;
-    margin: 0 auto;
-    max-width: 800px;
-    justify-content: center;
-    grid-template-columns: 2fr 2fr 6fr;
-    grid-column-gap: 12px;
-    grid-template-areas:
-      "TITLE            TITLE         TITLE"
-      "ID_TIPUSAGENT    ID_AGENT      ID_AGENT"
-      "ALTA             BAIXA         ."
-      "errorMessage     errorMessage  errorMessage";
-  }
-.USUARI-CATALEG-editItem-layout {
+.AANEE_ALUMNE_GRID-editItem-layout {
     display: grid;
     margin: 0 auto;
     max-width:800px;
@@ -681,17 +315,17 @@ div .detailsCellFile[data-v-e9d017ea] {
     grid-column-gap: 12px;
     grid-template-areas:
       "LOGIN_USUARI    COGNOMSINOM_USUARI  COGNOMSINOM_USUARI    ROL"
-      ".               EMAIL_USUARI        EMAIL_USUARI          EMAIL_USUARI"
-      "errorMessage    errorMessage        errorMessage          errorMessage"
+      "EMAIL_USUARI    EMAIL_USUARI        EMAIL_USUARI          ID_EAP"
+      "errorMessage    errorMessage        errorMessage          errorMessage";
   }
-.layoutBase-grid[data-v-092e5e47] {
+.layoutBase-grid[data-v-509d1d50] {
   display: grid;
   grid-template-areas: "logo title menu" "content content content";
-  grid-template-columns: 140px 370px auto;
-  grid-template-rows: 80px auto;
+  grid-template-columns: 160px 360px auto;
+  grid-template-rows: 75px auto;
   min-height: 100%;
 }
-.layoutBase-logo[data-v-092e5e47] {
+.layoutBase-logo[data-v-509d1d50] {
   grid-area: logo;
   display: flex;
   align-items: center;
@@ -699,72 +333,32 @@ div .detailsCellFile[data-v-e9d017ea] {
   margin: 0;
   padding: 0;
 }
-.layoutBase-title[data-v-092e5e47] {
+.layoutBase-title[data-v-509d1d50] {
   grid-area: title;
   padding: 5px 20px 0 20px;
-  max-height: 95px;
+  max-height: 85px;
   margin: 0;
   overflow: hidden;
 }
-.layoutBase-appTitle[data-v-092e5e47] {
+.layoutBase-appTitle[data-v-509d1d50] {
   font-size: 20px;
   color: var(--theme-primary, #0078d4);
 }
-.layoutBase-subtitle[data-v-092e5e47] {
+.layoutBase-subtitle[data-v-509d1d50] {
+  padding-top: 0px;
+  margin-top: -6px;
   font-size: 18px;
   color: var(--theme-secondary, #2b88d8);
 }
-.layoutBase-menu[data-v-092e5e47] {
+.layoutBase-menu[data-v-509d1d50] {
   grid-area: menu;
   max-height: 100px;
   width: 95%;
 }
-.layoutBase-content[data-v-092e5e47] {
+.layoutBase-content[data-v-509d1d50] {
   position: relative;
   grid-area: content;
   border-top: 2px solid var(--theme-primary, #0078d4);
-}
-
-.detailsViewSelect-navTop[data-v-5c441279] {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.detailsViewSelect-navBottom[data-v-5c441279] {
-  display: flex;
-  flex-direction: column;
-}
-.detailsViewSelect-navigation[data-v-5c441279] {
-  display: flex;
-}
-.detailsViewSelect-navigation.detailsViewSelect-left[data-v-5c441279] {
-  justify-content: flex-start;
-}
-.detailsViewSelect-navigation.detailsViewSelect-center[data-v-5c441279] {
-  justify-content: center;
-}
-.detailsViewSelect-navigation.detailsViewSelect-right[data-v-5c441279] {
-  justify-content: flex-end;
-}
-
-.menuContextual[data-v-138761e4] {
-  position: absolute;
-}
-.menuContextual.overloaded[data-v-138761e4] {
-  transform: translateX(-100%);
-}
-
-.layoutDetails-commandBar[data-v-bbf1883a] {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  box-sizing: border-box;
-  border-bottom: 2px solid var(--theme-primary, #0078d4);
-}
-.layoutDetails-contextualManu[data-v-bbf1883a] {
-  position: absolute;
-}
-.layoutDetails-contextualManu.overloaded[data-v-bbf1883a] {
-  transform: translateX(-100%);
 }
 
 .layoutListItem-container[data-v-f73b1a8e] {
@@ -797,6 +391,141 @@ div .detailsCellFile[data-v-e9d017ea] {
   --theme-primary: #e81123;
   --theme-secondary: #eb2b3b;
   --theme-tertiary: #f16b76;
+}
+
+
+.AANEE_SETTINGS-editItem[data-v-764fa502] {
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:4px;
+    max-width:930px;
+    display: grid;
+    grid-template-columns: 25% 22% 22% 22%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      'PAGINACIO               ALUMNE_PAGEROWS           ALUMNE_EDIT_PAGEROWS      OFERTA_EDIT_PAGEROWS'
+      'FIND                    FILES_FINDIDALUS          FILES_LLIGAM_AANEE        FILES_LLIGAM_RAV'
+      'SIMULACIONS             .                         .                         .'
+      'ALUMNES_ORD_GRUP_P3     ALUMNES_NEEA_GRUP_P3      ALUMNES_NEEB_GRUP_P3      ALUMNES_NEE_GRUP_P3'
+      'ALUMNES_ORD_GRUP_1ESO   ALUMNES_NEEA_GRUP_1ESO    ALUMNES_NEEB_GRUP_1ESO    ALUMNES_NEE_GRUP_1ESO'
+      'TEMPS                   TEMPS                     TEMPS                     TEMPS'
+      'DISTANCIA_PRIMARIA_TIT  DISTANCIA_SECUNDARIA_TIT  DISTANCIA_PRIMARIA        DISTANCIA_SECUNDARIA'
+}
+
+
+
+.alta[data-v-38cbc7e9] {
+  margin-top: 8px;
+}
+.AANEE_SIMULACIO-editItem-layout[data-v-38cbc7e9] {
+    display: grid;
+    width: 990px;
+    display: grid;
+    grid-template-columns: 10% 15% 25% 15% 20% 20%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      "ID_NIVELL            CODI_SIMULACIO       NOM_SIMULACIO           NOM_SIMULACIO         PRIMERNUMERO_DESEMPAT    DATA_CALCUL"
+      "ASSIG_MANUALS_NEE    ASSIG_MANUALS_NEE    FORATERMINI_NEE         DUPLICADES_NEE        DUPLICADES_NEE           ESTAT_SOLICITUD"
+      "ASSIG_MANUALS_ORD    ASSIG_MANUALS_ORD    IGNORAR_FORACIUTAT      REASSIGNAR_NEE        REASSIGNAR_NEE           ."
+      "EMPRAR_TIPUS_AANEE   EMPRAR_TIPUS_AANEE   EMPRAR_MARCATGES_AANEE  REASSIGNAR_ORDINARIS  REASSIGNAR_ORDINARIS     ALTA"
+      "errorMessage         errorMessage         errorMessage            errorMessage          errorMessage             errorMessage";
+}
+
+
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-11353cd2] {
+   padding: 4px;
+    margin-top: 2px;
+    margin-left:4px;
+    display: grid;
+    grid-template-columns: 11% 11% 15% 15% 15% 15% 15%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      'ID_ZONA   NCTES      TITULARITAT        TITULARITAT                   TITULARITAT              TITULARITAT              TITULARITAT'
+      '.         .          ID_CENTRE          ID_CENTRE                     ID_CENTRE                ID_CENTRE                ID_CENTRE'
+      'INICIAL   INICIAL    GRUPS_INI          OFERTA_ORDINARIA_INI          OFERTA_NEEA_INI          OFERTA_NEEB_INI          OFERTA_NEE_INI'
+      'ACTUALG   ACTUALG    .                  MODIFICACIO_ORDINARIA_GRUP    MODIFICACIO_NEEA_GRUP    MODIFICACIO_NEEB_GRUP    MODIFICACIO_NEE_GRUP'
+      'ACTUALC   ACTUALC    MODIFICACIO_GRUPS  MODIFICACIO_ORDINARIA_CENTRE  MODIFICACIO_NEEA_CENTRE  MODIFICACIO_NEEB_CENTRE  MODIFICACIO_NEE_CENTRE'
+      'FINAL     FINAL      GRUPS_FIN          OFERTA_ORDINARIA_FIN          OFERTA_NEEA_FIN          OFERTA_NEEB_FIN          OFERTA_NEE_FIN'
+}
+
+
+.AANEE_SIMULACIO_OFERTA-edit-layout[data-v-350daae2] {
+   padding: 4px;
+    margin-top: 2px;
+    margin-left:4px;
+    display: grid;
+    grid-template-columns: 30% 12% 12% 12% 12% 12%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      '.          ID_ZONA  TITULARITAT                   TITULARITAT              TITULARITAT              TITULARITAT'
+      'INICIAL    NUM      OFERTA_ORDINARIA_INI          OFERTA_NEEA_INI          OFERTA_NEEB_INI          OFERTA_NEE_INI'
+      'ACTUALC    NCTES    MODIFICACIO_ORDINARIA_CENTRE  MODIFICACIO_NEEA_CENTRE  MODIFICACIO_NEEB_CENTRE  MODIFICACIO_NEE_CENTRE'
+      'ACTUALG    NGRUPS   MODIFICACIO_ORDINARIA_GRUP    MODIFICACIO_NEEA_GRUP    MODIFICACIO_NEEB_GRUP    MODIFICACIO_NEE_GRUP'
+      'FINAL      .        OFERTA_ORDINARIA_FIN          OFERTA_NEEA_FIN          OFERTA_NEEB_FIN          OFERTA_NEE_FIN'
+}
+
+.AANEE_USUARI-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width:800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "LOGIN_USUARI    COGNOMSINOM_USUARI  COGNOMSINOM_USUARI    ROL"
+      "EMAIL_USUARI    EMAIL_USUARI        EMAIL_USUARI          ID_EAP"
+      "errorMessage    errorMessage        errorMessage          errorMessage";
+  }
+.GEDAC_OFERTA_EDUCATIVA-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width:900px;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_ETAPA     ID_ZONA           NIVELL       .            ."
+      "CODI_CENTRE  NOM_CENTRE        NOM_CENTRE   NOM_CENTRE   NOM_CENTRE"
+      "GRUPS        OFERTA_ORDINARIA  OFERTA_NEEA  OFERTA_NEEB  OFERTA_NEE";
+  }
+.detailsViewSelect-navTop[data-v-68c44180] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.detailsViewSelect-navBottom[data-v-68c44180] {
+  display: flex;
+  flex-direction: column;
+}
+.detailsViewSelect-navigation[data-v-68c44180] {
+  display: flex;
+}
+.detailsViewSelect-navigation.detailsViewSelect-left[data-v-68c44180] {
+  justify-content: flex-start;
+}
+.detailsViewSelect-navigation.detailsViewSelect-center[data-v-68c44180] {
+  justify-content: center;
+}
+.detailsViewSelect-navigation.detailsViewSelect-right[data-v-68c44180] {
+  justify-content: flex-end;
+}
+
+.menuContextual[data-v-138761e4] {
+  position: absolute;
+}
+.menuContextual.overloaded[data-v-138761e4] {
+  transform: translateX(-100%);
+}
+
+.layoutDetails-commandBar[data-v-700a86e8] {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--theme-primary, #0078d4);
+}
+.layoutDetails-contextualManu[data-v-700a86e8] {
+  position: absolute;
+}
+.layoutDetails-contextualManu.overloaded[data-v-700a86e8] {
+  transform: translateX(-100%);
 }
 
 
@@ -1127,7 +856,7 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 
 
-.itemListEdit-container[data-v-e1f6c376] .baseLayout-content {
+.itemListEdit-container[data-v-5bb720f8] .baseLayout-content {
   padding: 10px;
   max-width: calc(100% - 20px);
 }
@@ -1188,7 +917,7 @@ div .detailsCellFile[data-v-e9d017ea] {
   max-width: calc(100% - 20px);
 }
 
-.layout[data-v-5bb68f00] {
+.layout[data-v-6fd09a82] {
   box-sizing: border-box;
   overflow: auto;
   margin: 0;
@@ -1198,29 +927,29 @@ div .detailsCellFile[data-v-e9d017ea] {
   align-items: center;
   justify-content: center;
 }
-.label[data-v-5bb68f00] {
+.label[data-v-6fd09a82] {
   font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
   width: 300px;
   text-align: center;
   margin-bottom: 24px;
 }
-.logo[data-v-5bb68f00] {
+.logo[data-v-6fd09a82] {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
-.form[data-v-5bb68f00] {
+.form[data-v-6fd09a82] {
   width: 300px;
 }
-.buttons[data-v-5bb68f00] {
+.buttons[data-v-6fd09a82] {
   margin-top: 25px;
 }
-.recovery[data-v-5bb68f00] {
+.recovery[data-v-6fd09a82] {
   margin-top: 10px;
 }
 
-.layout[data-v-31aa8ac4] {
+.layout[data-v-b0180da2] {
   box-sizing: border-box;
   overflow: auto;
   margin: 0;
@@ -1230,26 +959,26 @@ div .detailsCellFile[data-v-e9d017ea] {
   align-items: center;
   justify-content: center;
 }
-.label[data-v-31aa8ac4] {
+.label[data-v-b0180da2] {
   font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
   width: 300px;
   text-align: center;
   margin-bottom: 24px;
 }
-.logo[data-v-31aa8ac4] {
+.logo[data-v-b0180da2] {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
-.form[data-v-31aa8ac4] {
+.form[data-v-b0180da2] {
   width: 300px;
 }
-.buttons[data-v-31aa8ac4] {
+.buttons[data-v-b0180da2] {
   margin-top: 25px;
 }
 
-.layout[data-v-57aae25c] {
+.layout[data-v-833874ce] {
   box-sizing: border-box;
   overflow: auto;
   margin: 0;
@@ -1259,26 +988,26 @@ div .detailsCellFile[data-v-e9d017ea] {
   align-items: center;
   justify-content: center;
 }
-.label[data-v-57aae25c] {
+.label[data-v-833874ce] {
   font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
   width: 300px;
   text-align: center;
   margin-bottom: 24px;
 }
-.logo[data-v-57aae25c] {
+.logo[data-v-833874ce] {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
-.form[data-v-57aae25c] {
+.form[data-v-833874ce] {
   width: 300px;
 }
-.buttons[data-v-57aae25c] {
+.buttons[data-v-833874ce] {
   margin-top: 25px;
 }
 
-.layout[data-v-5d7407a6] {
+.layout[data-v-b4240742] {
   box-sizing: border-box;
   overflow: auto;
   margin: 0;
@@ -1288,25 +1017,25 @@ div .detailsCellFile[data-v-e9d017ea] {
   align-items: center;
   justify-content: center;
 }
-.label[data-v-5d7407a6] {
+.label[data-v-b4240742] {
   font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
   width: 300px;
   text-align: center;
   margin-bottom: 24px;
 }
-.logo[data-v-5d7407a6] {
+.logo[data-v-b4240742] {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
-.form[data-v-5d7407a6] {
+.form[data-v-b4240742] {
   width: 300px;
 }
-.buttons[data-v-5d7407a6] {
+.buttons[data-v-b4240742] {
   margin-top: 25px;
 }
-.recovery[data-v-5d7407a6] {
+.recovery[data-v-b4240742] {
   margin-top: 10px;
 }
 
@@ -1327,6 +1056,450 @@ div .detailsCellFile[data-v-e9d017ea] {
 }
 .notFound-buttons > button[data-v-5023a390] {
   margin: 10px 5px;
+}
+
+.loadData[data-v-7d87a061] {
+  box-sizing: border-box;
+  height: calc(100% - 30px);
+  border: 4px dashed var(--neutral-tertiary, #a19f9d);
+  border-radius: 8px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loadData label[data-v-7d87a061] {
+  pointer-events: none;
+  user-select: none;
+}
+.dragging[data-v-7d87a061] {
+  border-color: var(--theme-tertiary, #71afe5);
+  color: var(--theme-tertiary, #71afe5);
+}
+.formFile[data-v-7d87a061] {
+  display: none;
+}
+.base[data-v-7d87a061] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.prev-button[data-v-107f63ef] {
+  grid-area: 'prevButton';
+  justify-self: end;
+  margin-right: 6px;
+}
+.next-button[data-v-107f63ef] {
+  grid-area: 'nextButton';
+  justify-self: start;
+}
+.action[data-v-107f63ef] {
+  margin-top: 4px;
+}
+.layout[data-v-107f63ef] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-list[data-v-107f63ef] {
+  margin-top: -8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.field-list[data-v-107f63ef] {
+  margin: 20px;
+}
+.action[data-v-107f63ef] {
+  display: flex;
+  justify-content: center;
+}
+
+.edicio[data-v-49ecc0ec] {
+  position: fixed;
+}
+
+.layout[data-v-9daf44ae] {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.field-list[data-v-9daf44ae] {
+  margin: 20px;
+}
+.action[data-v-9daf44ae] {
+  display: grid;
+  grid-template-areas: 'showAll prevButton  nextButton .';
+  grid-template-columns: '8px 8px 100% 100%';
+  margin: 0 20px;
+}
+.show-all[data-v-9daf44ae] {
+  grid-area: 'showAll';
+  justify-self: start;
+}
+.prev-button[data-v-9daf44ae] {
+  grid-area: 'prevButton';
+  justify-self: end;
+  margin-right: 6px;
+}
+.next-button[data-v-9daf44ae] {
+  grid-area: 'nextButton';
+  justify-self: start;
+}
+.invalid-cell[data-v-9daf44ae] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+  background-color: #fde7e9;
+}
+
+.link[data-v-06c8f6f6] {
+  cursor: pointer;
+  color: red;
+}
+.layout[data-v-06c8f6f6] {
+  box-sizing: border-box;
+  height: calc(100% - 30px);
+  padding-top: 60px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comptador {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 14px;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 102px!important;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 170px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left .cela {
+  justify-content: flex-start;
+}
+.fura-center .cela {
+  justify-content: center;
+}
+.fura-right .cela {
+  justify-content: flex-end;
+}
+
+.comptador {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 14px;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 220px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left .cela {
+  justify-content: flex-start;
+}
+.fura-center .cela {
+  justify-content: center;
+}
+.fura-right .cela {
+  justify-content: flex-end;
+}
+
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 190px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left .cela {
+  justify-content: flex-start;
+}
+.fura-center .cela {
+  justify-content: center;
+}
+.fura-right .cela {
+  justify-content: flex-end;
+}
+
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 190px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left .cela {
+  justify-content: flex-start;
+}
+.fura-center .cela {
+  justify-content: center;
+}
+.fura-right .cela {
+  justify-content: flex-end;
+}
+
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 190px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left .cela {
+  justify-content: flex-start;
+}
+.fura-center .cela {
+  justify-content: center;
+}
+.fura-right .cela {
+  justify-content: flex-end;
+}
+
+.comptador {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 14px;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 180px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left .cela {
+  justify-content: flex-start;
+}
+.fura-center .cela {
+  justify-content: center;
+}
+.fura-right .cela {
+  justify-content: flex-end;
+}
+
+.comptador {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 14px;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.botoMoviment {
+  height: 24px;
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.boto {
+  height: 24px;
+  width: 190px;
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 30px;
+}
+.cela {
+  box-sizing: border-box;
+  padding: 0px 12px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left  {
+  justify-content: flex-start;
+}
+.fura-center  {
+  justify-content: center;
+}
+.fura-right  {
+  justify-content: flex-end;
+}
+
+
+.AANEE_ASSIGNACIO_PLACES[data-v-3f4e7711] {
+    display: grid;
+    margin: auto;
+    width: fit-content;
+    max-width: 1200px;
+    grid-template-columns: 11% 19% 18% 18% 18% 12%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      "calcul  adscripcioNEEA  adscripcioNEEB  TIPUSGEDAC  DESEMPAT    CALCULAR"
+      "REPORT  REPORT           ID_ETAPA       ID_NIVELL   ID_CENTRE   ID_CENTRE"
+      "BOTONS  BOTONS          BOTONS          BOTONS      BOTONS      BOTONS"
+      "VISOR   VISOR           VISOR           VISOR       VISOR       VISOR";
+}
+.excel[data-v-3f4e7711] {
+  --theme-primary: green;
+}
+.error[data-v-3f4e7711] {
+  color: #a4262c;
+}
+.form[data-v-3f4e7711] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left:4px;
+}
+
+.visor {
+  margin-top: 4px;
+  width: 1200px;
+  height: 500px;
+  background-color: #dddddd;
+}
+.boto {
+  height: 12px;
+  width: 120px;
+  margin-left: 6px;
+}
+.AANEE_SIMULACIO-reports {
+  display: grid;
+  margin: auto;
+  width: fit-content;
+  max-width: 1200px;
+  grid-template-columns: 15% 22% 20% 20% 9% 12%;
+  grid-column-gap: 6px;
+  grid-template-areas: "REPORT   REPORT      TIT          CENTRE    CENTRE         NUM_SOLICITUD" "INDEX    DESCRIPCIO  TITULARITAT  PEROPCIO  MODIFICACIONS  MODIFICACIONS" "BOTONS   BOTONS      BOTONS       BOTONS    BOTONS         BOTONS" "VISOR    VISOR       VISOR        VISOR     VISOR          VISOR";
 }
 
 .dialogLoading-overlay[data-v-69be9a34] {
@@ -1377,5 +1550,13 @@ html, body, #app {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+.avaluacioInvalid {
+    --white: #fcbcbc!important;
+    --neutral-lighter: #fcbcbc!important;
+}
+.avaluacioValid {
+    --white: #adfac0!important;
+    --neutral-lighter :#adfac0!important;
 }
 
